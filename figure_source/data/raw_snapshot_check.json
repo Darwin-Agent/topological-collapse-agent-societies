@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "description": "Directional consistency check using a separately retained local raw-file pairing. This is not a re-estimate of the archived primary cross-platform analysis.",
+  "archived_primary_input": {
+    "source_path": "figure_source/data/fig2_observational_data.json",
+    "source_section": "cross.moltbook",
+    "selection": {
+      "max_posts_by_recorded_comment_count": 50000,
+      "reply_window_minutes": 60,
+      "non_singleton_hyperedges_only": true
+    },
+    "result": {
+      "n_nodes": 23840,
+      "n_hyperedges": 49519,
+      "mean_edge_size": 9.933601243966962,
+      "higher_order_fraction": 0.9693249055917931,
+      "hyperdegree_gini": 0.8629962541100904,
+      "mean_edge_overlap": 0.11707393583661475
+    }
+  },
+  "alternative_raw_pairing": {
+    "description": "The top-ranked lnajt post records are paired by post ID with the complete MoltNet comment file. Source files come from distinct public releases, so this check tests descriptive direction only.",
+    "source_files": [
+      {
+        "dataset": "lnajt/moltbook",
+        "relative_path": "data/raw/moltbook_hf/lnajt/posts.parquet",
+        "n_records": 2364644,
+        "sha256": "abac0c054646e49a4008e2782bdcf9132bbc8f637e925cae908dd92dda88292d"
+      },
+      {
+        "dataset": "iNLP-Lab/Moltbook-MoltNet",
+        "relative_path": "data/raw/moltbook_hf/moltnet/data/v2026-02-28/comments.parquet",
+        "n_records": 3161324,
+        "sha256": "3fd76180339d6da5f3321d714531698c9bef04014ac94868803551699259d870"
+      }
+    ],
+    "selection": {
+      "max_posts_by_recorded_comment_count": 50000,
+      "reply_window_minutes": 60,
+      "non_singleton_hyperedges_only": true
+    },
+    "result": {
+      "n_nodes": 18285,
+      "n_hyperedges": 38819,
+      "mean_edge_size": 9.13168809088333,
+      "higher_order_fraction": 0.9688812179602772,
+      "hyperdegree_gini": 0.8733394158685144,
+      "mean_edge_overlap": 0.11967702733589618
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Moltbook": {
+    "beta1": 0.3,
+    "beta2": 2.0,
+    "mu": 0.1,
+    "lam": 2.0,
+    "C_ctx": 8.0,
+    "attention_factor": 0.7788007830714049,
+    "phi": 0.6483727740235308,
+    "beta1_eff": 0.5874373494864426,
+    "beta2_eff": 1.0099064482634097,
+    "topology": {
+      "triadic_closure": 0.643,
+      "edge_overlap": 0.128,
+      "gini": 0.781,
+      "mean_degree": 3.96,
+      "n_nodes": 22666,
+      "his_mean": 0.41,
+      "cv_squared": 0.9581244982881421,
+      "mean_simplicial_degree": 0.0004448631783287744
+    },
+    "equilibria": [
+      0.0,
+      0.9347
+    ],
+    "is_bistable": false
+  },
+  "SocioPatterns": {
+    "beta1": 0.3,
+    "beta2": 2.0,
+    "mu": 0.1,
+    "lam": 2.0,
+    "C_ctx": 8.0,
+    "attention_factor": 0.7788007830714049,
+    "phi": 1.2519422439273158,
+    "beta1_eff": 0.36486179316491285,
+    "beta2_eff": 1.9500271998615306,
+    "topology": {
+      "triadic_closure": 0.97,
+      "edge_overlap": 0.269,
+      "gini": 0.371,
+      "mean_degree": 11.47,
+      "n_nodes": 403,
+      "his_mean": 0.69,
+      "cv_squared": 0.21620597721637633,
+      "mean_simplicial_degree": 0.3166602307692308
+    },
+    "equilibria": [
+      0.0,
+      0.955103
+    ],
+    "is_bistable": false
+  }
+}

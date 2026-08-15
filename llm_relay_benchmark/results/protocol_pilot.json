@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "benchmark": "bandwidth_limited_distributed_evidence",
+  "created_at_utc": "2026-07-30T22:20:02.407658+00:00",
+  "manifest_sha256": "fc220c5c30852e3f598638a78f5641b742b0243fc608ff0adf5a157506133e7c",
+  "mode": "pilot",
+  "task_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "models": [
+    {
+      "label": "DeepSeek-V4-Flash",
+      "model": "deepseek-v4-flash"
+    },
+    {
+      "label": "GPT-4.1-mini",
+      "model": "gpt-4.1-mini"
+    }
+  ],
+  "conditions": [
+    "solo",
+    "pairs",
+    "star",
+    "triads",
+    "five_cliques"
+  ],
+  "n_agents": 8,
+  "n_rounds": 2,
+  "relay_rule": "At each round, every agent broadcasts exactly one card: the lexicographically first card it has not previously broadcast, or its first card if all known cards were already broadcast. Payloads are selected before synchronous delivery to every co-member.",
+  "primary_endpoint": "Final-round run-level plurality accuracy; ties are incorrect.",
+  "secondary_endpoints": [
+    "individual accuracy",
+    "sufficient-evidence agent fraction",
+    "accuracy conditional on sufficient evidence",
+    "Brier score",
+    "API and parse failure rates"
+  ],
+  "temperature": 0,
+  "max_tokens": 512
+}

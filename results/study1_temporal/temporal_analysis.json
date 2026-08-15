@@ -1,0 +1,165 @@
+{
+  "weekly": [
+    {
+      "year_week": "2026-W05",
+      "n_posts": 83997,
+      "zero_reply": 19719,
+      "unique_authors": 0,
+      "avg_comments": 18.24624688976987,
+      "max_comments": 244105,
+      "zero_reply_rate": 0.23475838422800815,
+      "c_n_comments": 31671,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.05996021597044615,
+      "c_depth0": 29792,
+      "c_depth1": 1861,
+      "c_depth2plus": 18
+    },
+    {
+      "year_week": "2026-W06",
+      "n_posts": 307080,
+      "zero_reply": 41975,
+      "unique_authors": 0,
+      "avg_comments": 33.349426859450304,
+      "max_comments": 278906,
+      "zero_reply_rate": 0.136690764621597,
+      "c_n_comments": 7743093,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.009503954040071583,
+      "c_depth0": 7680177,
+      "c_depth1": 56440,
+      "c_depth2plus": 6476
+    },
+    {
+      "year_week": "2026-W07",
+      "n_posts": 1021284,
+      "zero_reply": 992994,
+      "unique_authors": 0,
+      "avg_comments": 0.07105369319405767,
+      "max_comments": 366,
+      "zero_reply_rate": 0.9722995758280752,
+      "c_n_comments": 10379,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.11677425570864246,
+      "c_depth0": 9253,
+      "c_depth1": 1041,
+      "c_depth2plus": 85
+    },
+    {
+      "year_week": "2026-W08",
+      "n_posts": 125834,
+      "zero_reply": 108330,
+      "unique_authors": 0,
+      "avg_comments": 0.6843539901775355,
+      "max_comments": 3624,
+      "zero_reply_rate": 0.8608961012127088,
+      "c_n_comments": 6957,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.08926261319534282,
+      "c_depth0": 6402,
+      "c_depth1": 514,
+      "c_depth2plus": 41
+    },
+    {
+      "year_week": "2026-W09",
+      "n_posts": 174561,
+      "zero_reply": 107358,
+      "unique_authors": 0,
+      "avg_comments": 1.7662536305360304,
+      "max_comments": 4920,
+      "zero_reply_rate": 0.6150171000395277,
+      "c_n_comments": 76332,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.08355604464706808,
+      "c_depth0": 71747,
+      "c_depth1": 3588,
+      "c_depth2plus": 997
+    },
+    {
+      "year_week": "2026-W10",
+      "n_posts": 230644,
+      "zero_reply": 137492,
+      "unique_authors": 0,
+      "avg_comments": 1.8988787915575518,
+      "max_comments": 3600,
+      "zero_reply_rate": 0.5961221622934045,
+      "c_n_comments": 170374,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.13176893187927735,
+      "c_depth0": 152614,
+      "c_depth1": 14658,
+      "c_depth2plus": 3102
+    },
+    {
+      "year_week": "2026-W11",
+      "n_posts": 178618,
+      "zero_reply": 99521,
+      "unique_authors": 0,
+      "avg_comments": 2.3464544446808273,
+      "max_comments": 4974,
+      "zero_reply_rate": 0.557172289466907,
+      "c_n_comments": 153505,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.14426240187616038,
+      "c_depth0": 135536,
+      "c_depth1": 15219,
+      "c_depth2plus": 2750
+    },
+    {
+      "year_week": "2026-W12",
+      "n_posts": 139353,
+      "zero_reply": 63944,
+      "unique_authors": 0,
+      "avg_comments": 2.8639282972020697,
+      "max_comments": 4247,
+      "zero_reply_rate": 0.45886346185586246,
+      "c_n_comments": 167599,
+      "c_unique_commenters": 0,
+      "c_avg_depth": 0.1441953710940996,
+      "c_depth0": 147867,
+      "c_depth1": 16707,
+      "c_depth2plus": 3025
+    }
+  ],
+  "pre_post_meta": {
+    "pre_meta": {
+      "n_posts": 1971524,
+      "zero_reply": 1423739,
+      "unique_authors": 167588,
+      "avg_comments": 6.459775280442947,
+      "first_post": "2026-01-27T18:01:13.220Z",
+      "last_post": "2026-03-09T23:59:59.677Z",
+      "zero_reply_rate": 0.7221514929567178,
+      "n_comments": 8059733,
+      "avg_depth": 0.013534195239470092,
+      "unique_commenters": 15891
+    },
+    "post_meta": {
+      "n_posts": 289847,
+      "zero_reply": 147594,
+      "unique_authors": 9467,
+      "avg_comments": 2.6260440853277762,
+      "first_post": "2026-03-10T00:00:01.407Z",
+      "last_post": "2026-03-22T17:15:30.983Z",
+      "zero_reply_rate": 0.5092134815954624,
+      "n_comments": 308753,
+      "avg_depth": 0.14797912894773493,
+      "unique_commenters": 5594
+    }
+  },
+  "outages": [
+    {
+      "start": "2026-01-28T01:21:05.666000+00:00",
+      "end": "2026-01-28T19:15:25.774000+00:00",
+      "gap_hours": 17.9
+    }
+  ],
+  "response_time": {
+    "n_samples": 11633,
+    "median_seconds": 25.198012590408325,
+    "mean_seconds": 806.837348720536,
+    "p25_seconds": 10.24198830127716,
+    "p75_seconds": 56.55801147222519,
+    "p95_seconds": 246.54298782348587
+  }
+}

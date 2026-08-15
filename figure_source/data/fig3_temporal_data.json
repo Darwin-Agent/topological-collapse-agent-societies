@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "description": "Fixed-seed weekly summary inputs for the temporal figure.",
+    "source_file": "results/study1_temporal/temporal_metrics.json"
+  },
+  "metrics": [
+    {
+      "edge_size_mean": 5.671879791475008,
+      "frac_higher_order": 0.8561790861698866,
+      "gini": 0.7353113404569736,
+      "n_edges": 3261,
+      "n_nodes": 3428,
+      "overlap": 0.166589282731587,
+      "triadic_closure": 0.7799359976185161,
+      "week": "2026-W05"
+    },
+    {
+      "edge_size_mean": 5.011134453781513,
+      "frac_higher_order": 0.7904411764705882,
+      "gini": 0.7744619391107541,
+      "n_edges": 9520,
+      "n_nodes": 7260,
+      "overlap": 0.15546147316994305,
+      "triadic_closure": 0.766555982539268,
+      "week": "2026-W06"
+    },
+    {
+      "edge_size_mean": 3.0085590465872154,
+      "frac_higher_order": 0.3695557963163597,
+      "gini": 0.5944259617669696,
+      "n_edges": 9230,
+      "n_nodes": 8574,
+      "overlap": 0.20584069948323414,
+      "triadic_closure": 0.4997116493656286,
+      "week": "2026-W07"
+    },
+    {
+      "edge_size_mean": 4.048539057841383,
+      "frac_higher_order": 0.6128801431127012,
+      "gini": 0.6510534867715763,
+      "n_edges": 8385,
+      "n_nodes": 5222,
+      "overlap": 0.15052006527021103,
+      "triadic_closure": 0.49788118864001263,
+      "week": "2026-W08"
+    },
+    {
+      "edge_size_mean": 2.919170545916208,
+      "frac_higher_order": 0.42350825222175204,
+      "gini": 0.6871769286962097,
+      "n_edges": 9452,
+      "n_nodes": 4329,
+      "overlap": 0.21336184516424508,
+      "triadic_closure": 0.49207068418667876,
+      "week": "2026-W09"
+    },
+    {
+      "edge_size_mean": 2.9690232852175744,
+      "frac_higher_order": 0.4200821831208513,
+      "gini": 0.7201414214939872,
+      "n_edges": 9491,
+      "n_nodes": 3655,
+      "overlap": 0.22673194940626504,
+      "triadic_closure": 0.5559380378657487,
+      "week": "2026-W10"
+    },
+    {
+      "edge_size_mean": 3.254360465116279,
+      "frac_higher_order": 0.489202657807309,
+      "gini": 0.7140945389650235,
+      "n_edges": 9632,
+      "n_nodes": 4044,
+      "overlap": 0.2084983649539523,
+      "triadic_closure": 0.5836093030337635,
+      "week": "2026-W11"
+    },
+    {
+      "edge_size_mean": 3.3009578741373984,
+      "frac_higher_order": 0.5096302399835204,
+      "gini": 0.7296574811065464,
+      "n_edges": 9709,
+      "n_nodes": 3438,
+      "overlap": 0.2091135309410212,
+      "triadic_closure": 0.5828289814974926,
+      "week": "2026-W12"
+    }
+  ],
+  "schema_version": 1
+}

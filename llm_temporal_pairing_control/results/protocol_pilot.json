@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "benchmark": "temporal_pairing_relay_control",
+  "status": "engineering_pilot",
+  "created_at_utc": "2026-07-31T12:00:00+00:00",
+  "manifest_sha256": "e24c21806f66c8fc05c0bfe93a468945ad3365b968277e5ba87c549545311d54",
+  "mode": "pilot",
+  "task_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "models": [
+    {
+      "label": "DeepSeek-V4-Flash",
+      "model": "deepseek-v4-flash"
+    },
+    {
+      "label": "GPT-4.1-mini",
+      "model": "gpt-4.1-mini"
+    }
+  ],
+  "conditions": [
+    "repeated_pairs",
+    "rotating_pairs"
+  ],
+  "n_agents": 8,
+  "n_rounds": 4,
+  "relay_rule": "At each round, every agent broadcasts exactly one card: the lexicographically first card it has not previously broadcast, or its first card if all known cards were already broadcast. Payloads are selected before synchronous delivery to the paired co-member.",
+  "schedule_rule": "Each round contains four disjoint dyads. Repeated pairs reuse one task-specific matching; rotating pairs use a new matching from the same task-specific one-factorization.",
+  "prompt_protocol_label": "controlled pair protocol",
+  "primary_endpoint": "Final-round run-level plurality accuracy; ties are incorrect.",
+  "secondary_endpoints": [
+    "individual accuracy",
+    "sufficient-evidence agent fraction",
+    "accuracy conditional on sufficient evidence",
+    "Brier score",
+    "API and parse failure rates"
+  ],
+  "temperature": 0,
+  "max_tokens": 512,
+  "interpretation_boundary": "This benchmark tests a four-round temporal-pairing schedule in a bounded deterministic-card task. It isolates repeated versus rotating dyadic contacts under the declared relay rule, not a general effect of communication topology, model scaling or open-ended collaboration."
+}

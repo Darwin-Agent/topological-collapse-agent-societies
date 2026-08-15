@@ -1,0 +1,944 @@
+{
+  "chain_length_diagnostic": {
+    "description": "Independent shorter and longer fixed-swap chains from the observed incidence matrix. These summaries inspect sensitivity to the declared chain length only; they do not establish mixing or uniform configuration-model sampling.",
+    "results": [
+      {
+        "accepted_swaps_per_incidence": 1,
+        "all_samples_below_observed": true,
+        "central_95_percent_interval": [
+          0.07648074343403805,
+          0.07802366563593977
+        ],
+        "maximum": 0.078144975108942,
+        "mean": 0.0771436379918121,
+        "minimum": 0.07639774623974806,
+        "null_samples": 20,
+        "samples": [
+          {
+            "acceptance_rate": 0.9006219543798495,
+            "accepted_swaps": 354483,
+            "attempts": 393598,
+            "mean_edge_overlap": 0.07690844293871213,
+            "seed": 0
+          },
+          {
+            "acceptance_rate": 0.9001325505571186,
+            "accepted_swaps": 354483,
+            "attempts": 393812,
+            "mean_edge_overlap": 0.07704562193315169,
+            "seed": 1
+          },
+          {
+            "acceptance_rate": 0.9003085831841213,
+            "accepted_swaps": 354483,
+            "attempts": 393735,
+            "mean_edge_overlap": 0.0776012461594669,
+            "seed": 2
+          },
+          {
+            "acceptance_rate": 0.9012287298548558,
+            "accepted_swaps": 354483,
+            "attempts": 393333,
+            "mean_edge_overlap": 0.07762800244954578,
+            "seed": 3
+          },
+          {
+            "acceptance_rate": 0.9008531195917631,
+            "accepted_swaps": 354483,
+            "attempts": 393497,
+            "mean_edge_overlap": 0.07788958674472678,
+            "seed": 4
+          },
+          {
+            "acceptance_rate": 0.9017927329064558,
+            "accepted_swaps": 354483,
+            "attempts": 393087,
+            "mean_edge_overlap": 0.07721313370305531,
+            "seed": 5
+          },
+          {
+            "acceptance_rate": 0.9013891467033512,
+            "accepted_swaps": 354483,
+            "attempts": 393263,
+            "mean_edge_overlap": 0.07694371795604914,
+            "seed": 6
+          },
+          {
+            "acceptance_rate": 0.9011370887173242,
+            "accepted_swaps": 354483,
+            "attempts": 393373,
+            "mean_edge_overlap": 0.07672062690527048,
+            "seed": 7
+          },
+          {
+            "acceptance_rate": 0.9013226813665165,
+            "accepted_swaps": 354483,
+            "attempts": 393292,
+            "mean_edge_overlap": 0.07697815095217836,
+            "seed": 8
+          },
+          {
+            "acceptance_rate": 0.9015587923365099,
+            "accepted_swaps": 354483,
+            "attempts": 393189,
+            "mean_edge_overlap": 0.0775162800699719,
+            "seed": 9
+          },
+          {
+            "acceptance_rate": 0.901066079653486,
+            "accepted_swaps": 354483,
+            "attempts": 393404,
+            "mean_edge_overlap": 0.07708660213486343,
+            "seed": 10
+          },
+          {
+            "acceptance_rate": 0.9019326965646038,
+            "accepted_swaps": 354483,
+            "attempts": 393026,
+            "mean_edge_overlap": 0.07696306948675759,
+            "seed": 11
+          },
+          {
+            "acceptance_rate": 0.9015266923192345,
+            "accepted_swaps": 354483,
+            "attempts": 393203,
+            "mean_edge_overlap": 0.0767836815593667,
+            "seed": 12
+          },
+          {
+            "acceptance_rate": 0.9009973718590666,
+            "accepted_swaps": 354483,
+            "attempts": 393434,
+            "mean_edge_overlap": 0.07743548224731853,
+            "seed": 13
+          },
+          {
+            "acceptance_rate": 0.9007363777734864,
+            "accepted_swaps": 354483,
+            "attempts": 393548,
+            "mean_edge_overlap": 0.07710977818246186,
+            "seed": 14
+          },
+          {
+            "acceptance_rate": 0.9018363234860126,
+            "accepted_swaps": 354483,
+            "attempts": 393068,
+            "mean_edge_overlap": 0.0765724771750954,
+            "seed": 15
+          },
+          {
+            "acceptance_rate": 0.9017101517845559,
+            "accepted_swaps": 354483,
+            "attempts": 393123,
+            "mean_edge_overlap": 0.078144975108942,
+            "seed": 16
+          },
+          {
+            "acceptance_rate": 0.9009080673896303,
+            "accepted_swaps": 354483,
+            "attempts": 393473,
+            "mean_edge_overlap": 0.07730115211783749,
+            "seed": 17
+          },
+          {
+            "acceptance_rate": 0.900512135268744,
+            "accepted_swaps": 354483,
+            "attempts": 393646,
+            "mean_edge_overlap": 0.07639774623974806,
+            "seed": 18
+          },
+          {
+            "acceptance_rate": 0.9011416703315699,
+            "accepted_swaps": 354483,
+            "attempts": 393371,
+            "mean_edge_overlap": 0.07663298577172266,
+            "seed": 19
+          }
+        ],
+        "standard_deviation": 0.0004517765841687166,
+        "tail_probability": {
+          "lower_tail": 1.0,
+          "two_sided": 0.09523809523809523,
+          "upper_tail": 0.047619047619047616
+        }
+      },
+      {
+        "accepted_swaps_per_incidence": 5,
+        "all_samples_below_observed": true,
+        "central_95_percent_interval": [
+          0.0771611640289762,
+          0.07865425238861815
+        ],
+        "maximum": 0.07872218535730144,
+        "mean": 0.07790446175531911,
+        "minimum": 0.07701126761467517,
+        "null_samples": 20,
+        "samples": [
+          {
+            "acceptance_rate": 0.9022150505341013,
+            "accepted_swaps": 1772415,
+            "attempts": 1964515,
+            "mean_edge_overlap": 0.07803061519762221,
+            "seed": 0
+          },
+          {
+            "acceptance_rate": 0.9021245861988932,
+            "accepted_swaps": 1772415,
+            "attempts": 1964712,
+            "mean_edge_overlap": 0.0778240637345988,
+            "seed": 1
+          },
+          {
+            "acceptance_rate": 0.902088772845953,
+            "accepted_swaps": 1772415,
+            "attempts": 1964790,
+            "mean_edge_overlap": 0.07701126761467517,
+            "seed": 2
+          },
+          {
+            "acceptance_rate": 0.9022623563692341,
+            "accepted_swaps": 1772415,
+            "attempts": 1964412,
+            "mean_edge_overlap": 0.0778340526316921,
+            "seed": 3
+          },
+          {
+            "acceptance_rate": 0.9022090802472655,
+            "accepted_swaps": 1772415,
+            "attempts": 1964528,
+            "mean_edge_overlap": 0.07732683901320365,
+            "seed": 4
+          },
+          {
+            "acceptance_rate": 0.9023886826631747,
+            "accepted_swaps": 1772415,
+            "attempts": 1964137,
+            "mean_edge_overlap": 0.0785791685811261,
+            "seed": 5
+          },
+          {
+            "acceptance_rate": 0.9021144847088716,
+            "accepted_swaps": 1772415,
+            "attempts": 1964734,
+            "mean_edge_overlap": 0.0780664519260165,
+            "seed": 6
+          },
+          {
+            "acceptance_rate": 0.9021640760124319,
+            "accepted_swaps": 1772415,
+            "attempts": 1964626,
+            "mean_edge_overlap": 0.07872218535730144,
+            "seed": 7
+          },
+          {
+            "acceptance_rate": 0.9019698745425686,
+            "accepted_swaps": 1772415,
+            "attempts": 1965049,
+            "mean_edge_overlap": 0.07795910367400624,
+            "seed": 8
+          },
+          {
+            "acceptance_rate": 0.9025297505384886,
+            "accepted_swaps": 1772415,
+            "attempts": 1963830,
+            "mean_edge_overlap": 0.07757725881229217,
+            "seed": 9
+          },
+          {
+            "acceptance_rate": 0.9021769339070894,
+            "accepted_swaps": 1772415,
+            "attempts": 1964598,
+            "mean_edge_overlap": 0.0778096828523965,
+            "seed": 10
+          },
+          {
+            "acceptance_rate": 0.9021337695679527,
+            "accepted_swaps": 1772415,
+            "attempts": 1964692,
+            "mean_edge_overlap": 0.07752707537730565,
+            "seed": 11
+          },
+          {
+            "acceptance_rate": 0.9025642200783702,
+            "accepted_swaps": 1772415,
+            "attempts": 1963755,
+            "mean_edge_overlap": 0.07806511943275794,
+            "seed": 12
+          },
+          {
+            "acceptance_rate": 0.9023009395579557,
+            "accepted_swaps": 1772415,
+            "attempts": 1964328,
+            "mean_edge_overlap": 0.07762394635162186,
+            "seed": 13
+          },
+          {
+            "acceptance_rate": 0.9020547987036253,
+            "accepted_swaps": 1772415,
+            "attempts": 1964864,
+            "mean_edge_overlap": 0.0784803922432389,
+            "seed": 14
+          },
+          {
+            "acceptance_rate": 0.9022641935891118,
+            "accepted_swaps": 1772415,
+            "attempts": 1964408,
+            "mean_edge_overlap": 0.07777947129952353,
+            "seed": 15
+          },
+          {
+            "acceptance_rate": 0.9022017323103988,
+            "accepted_swaps": 1772415,
+            "attempts": 1964544,
+            "mean_edge_overlap": 0.07797951124844363,
+            "seed": 16
+          },
+          {
+            "acceptance_rate": 0.9019102076706499,
+            "accepted_swaps": 1772415,
+            "attempts": 1965179,
+            "mean_edge_overlap": 0.07772766889085864,
+            "seed": 17
+          },
+          {
+            "acceptance_rate": 0.9023271228868115,
+            "accepted_swaps": 1772415,
+            "attempts": 1964271,
+            "mean_edge_overlap": 0.07833601251865509,
+            "seed": 18
+          },
+          {
+            "acceptance_rate": 0.902177852342161,
+            "accepted_swaps": 1772415,
+            "attempts": 1964596,
+            "mean_edge_overlap": 0.077829348349046,
+            "seed": 19
+          }
+        ],
+        "standard_deviation": 0.000413646006957902,
+        "tail_probability": {
+          "lower_tail": 1.0,
+          "two_sided": 0.09523809523809523,
+          "upper_tail": 0.047619047619047616
+        }
+      }
+    ]
+  },
+  "description": "Degree- and hyperedge-size-preserving bipartite-incidence rewiring ensemble on the alternative local Moltbook raw-file pairing. This is a descriptive null-model check, not a re-estimation of the archived primary cross-platform analysis.",
+  "null_model": {
+    "accepted_swaps_per_incidence": 3,
+    "move": "Swap two node incidences from distinct hyperedges only when both new memberships are absent.",
+    "null_samples": 80,
+    "overlap_sampling_seed": 42,
+    "preserved_exactly": [
+      "Node hyperdegree sequence",
+      "Hyperedge-size sequence",
+      "Total incidence count"
+    ],
+    "representation": "Simple bipartite node-hyperedge incidence matrix",
+    "total_incidences": 354483
+  },
+  "null_overlap": {
+    "all_samples_below_observed": true,
+    "central_95_percent_interval": [
+      0.07663275004159402,
+      0.07873528549546766
+    ],
+    "maximum": 0.07901171229774709,
+    "mean": 0.07765302677471693,
+    "minimum": 0.07656448431700684,
+    "samples": [
+      {
+        "acceptance_rate": 0.9019112785449315,
+        "accepted_swaps": 1063449,
+        "attempts": 1179106,
+        "mean_edge_overlap": 0.077919639549659,
+        "seed": 0
+      },
+      {
+        "acceptance_rate": 0.9015075862513288,
+        "accepted_swaps": 1063449,
+        "attempts": 1179634,
+        "mean_edge_overlap": 0.07786903289880977,
+        "seed": 1
+      },
+      {
+        "acceptance_rate": 0.9014158883970727,
+        "accepted_swaps": 1063449,
+        "attempts": 1179754,
+        "mean_edge_overlap": 0.07708012997571362,
+        "seed": 2
+      },
+      {
+        "acceptance_rate": 0.9019089838174418,
+        "accepted_swaps": 1063449,
+        "attempts": 1179109,
+        "mean_edge_overlap": 0.07714975211083148,
+        "seed": 3
+      },
+      {
+        "acceptance_rate": 0.9017713215335681,
+        "accepted_swaps": 1063449,
+        "attempts": 1179289,
+        "mean_edge_overlap": 0.07767270674246785,
+        "seed": 4
+      },
+      {
+        "acceptance_rate": 0.9019411110649352,
+        "accepted_swaps": 1063449,
+        "attempts": 1179067,
+        "mean_edge_overlap": 0.07770328199650473,
+        "seed": 5
+      },
+      {
+        "acceptance_rate": 0.9019304017281256,
+        "accepted_swaps": 1063449,
+        "attempts": 1179081,
+        "mean_edge_overlap": 0.0777673371759315,
+        "seed": 6
+      },
+      {
+        "acceptance_rate": 0.9017392063805666,
+        "accepted_swaps": 1063449,
+        "attempts": 1179331,
+        "mean_edge_overlap": 0.07803043084431692,
+        "seed": 7
+      },
+      {
+        "acceptance_rate": 0.9018087921033886,
+        "accepted_swaps": 1063449,
+        "attempts": 1179240,
+        "mean_edge_overlap": 0.07721129436479042,
+        "seed": 8
+      },
+      {
+        "acceptance_rate": 0.9023834757897613,
+        "accepted_swaps": 1063449,
+        "attempts": 1178489,
+        "mean_edge_overlap": 0.07733540003247147,
+        "seed": 9
+      },
+      {
+        "acceptance_rate": 0.9018623268909487,
+        "accepted_swaps": 1063449,
+        "attempts": 1179170,
+        "mean_edge_overlap": 0.07713086222352115,
+        "seed": 10
+      },
+      {
+        "acceptance_rate": 0.9021209129036198,
+        "accepted_swaps": 1063449,
+        "attempts": 1178832,
+        "mean_edge_overlap": 0.07794220102946361,
+        "seed": 11
+      },
+      {
+        "acceptance_rate": 0.9026040548259593,
+        "accepted_swaps": 1063449,
+        "attempts": 1178201,
+        "mean_edge_overlap": 0.0775717806780613,
+        "seed": 12
+      },
+      {
+        "acceptance_rate": 0.9017736155606019,
+        "accepted_swaps": 1063449,
+        "attempts": 1179286,
+        "mean_edge_overlap": 0.07729255199020231,
+        "seed": 13
+      },
+      {
+        "acceptance_rate": 0.9017376771446233,
+        "accepted_swaps": 1063449,
+        "attempts": 1179333,
+        "mean_edge_overlap": 0.07796084879625093,
+        "seed": 14
+      },
+      {
+        "acceptance_rate": 0.9023719902520484,
+        "accepted_swaps": 1063449,
+        "attempts": 1178504,
+        "mean_edge_overlap": 0.07718092813797071,
+        "seed": 15
+      },
+      {
+        "acceptance_rate": 0.9019992519026863,
+        "accepted_swaps": 1063449,
+        "attempts": 1178991,
+        "mean_edge_overlap": 0.07775046544186869,
+        "seed": 16
+      },
+      {
+        "acceptance_rate": 0.9018676807192899,
+        "accepted_swaps": 1063449,
+        "attempts": 1179163,
+        "mean_edge_overlap": 0.07807852271778105,
+        "seed": 17
+      },
+      {
+        "acceptance_rate": 0.9021913229380525,
+        "accepted_swaps": 1063449,
+        "attempts": 1178740,
+        "mean_edge_overlap": 0.07778251295740968,
+        "seed": 18
+      },
+      {
+        "acceptance_rate": 0.9019403461038719,
+        "accepted_swaps": 1063449,
+        "attempts": 1179068,
+        "mean_edge_overlap": 0.07786631109309808,
+        "seed": 19
+      },
+      {
+        "acceptance_rate": 0.9017399710004833,
+        "accepted_swaps": 1063449,
+        "attempts": 1179330,
+        "mean_edge_overlap": 0.0771616183653873,
+        "seed": 20
+      },
+      {
+        "acceptance_rate": 0.9021278003567965,
+        "accepted_swaps": 1063449,
+        "attempts": 1178823,
+        "mean_edge_overlap": 0.07770716029748714,
+        "seed": 21
+      },
+      {
+        "acceptance_rate": 0.9021974460691659,
+        "accepted_swaps": 1063449,
+        "attempts": 1178732,
+        "mean_edge_overlap": 0.07790097192594511,
+        "seed": 22
+      },
+      {
+        "acceptance_rate": 0.9015740788624785,
+        "accepted_swaps": 1063449,
+        "attempts": 1179547,
+        "mean_edge_overlap": 0.07757655065668721,
+        "seed": 23
+      },
+      {
+        "acceptance_rate": 0.9022632749782378,
+        "accepted_swaps": 1063449,
+        "attempts": 1178646,
+        "mean_edge_overlap": 0.07826345678200412,
+        "seed": 24
+      },
+      {
+        "acceptance_rate": 0.9023405979406811,
+        "accepted_swaps": 1063449,
+        "attempts": 1178545,
+        "mean_edge_overlap": 0.07791919130728565,
+        "seed": 25
+      },
+      {
+        "acceptance_rate": 0.9022847097193493,
+        "accepted_swaps": 1063449,
+        "attempts": 1178618,
+        "mean_edge_overlap": 0.07806259233122056,
+        "seed": 26
+      },
+      {
+        "acceptance_rate": 0.9019288718436276,
+        "accepted_swaps": 1063449,
+        "attempts": 1179083,
+        "mean_edge_overlap": 0.0780366342453048,
+        "seed": 27
+      },
+      {
+        "acceptance_rate": 0.9023727559454664,
+        "accepted_swaps": 1063449,
+        "attempts": 1178503,
+        "mean_edge_overlap": 0.07742189870452092,
+        "seed": 28
+      },
+      {
+        "acceptance_rate": 0.9020413321842746,
+        "accepted_swaps": 1063449,
+        "attempts": 1178936,
+        "mean_edge_overlap": 0.07705197823462005,
+        "seed": 29
+      },
+      {
+        "acceptance_rate": 0.902179842291231,
+        "accepted_swaps": 1063449,
+        "attempts": 1178755,
+        "mean_edge_overlap": 0.07799044177726584,
+        "seed": 30
+      },
+      {
+        "acceptance_rate": 0.9022020384720453,
+        "accepted_swaps": 1063449,
+        "attempts": 1178726,
+        "mean_edge_overlap": 0.077771734068962,
+        "seed": 31
+      },
+      {
+        "acceptance_rate": 0.9018890966683204,
+        "accepted_swaps": 1063449,
+        "attempts": 1179135,
+        "mean_edge_overlap": 0.07719717889929263,
+        "seed": 32
+      },
+      {
+        "acceptance_rate": 0.9011172355939313,
+        "accepted_swaps": 1063449,
+        "attempts": 1180145,
+        "mean_edge_overlap": 0.07827496249755697,
+        "seed": 33
+      },
+      {
+        "acceptance_rate": 0.9017063289507824,
+        "accepted_swaps": 1063449,
+        "attempts": 1179374,
+        "mean_edge_overlap": 0.078071669350777,
+        "seed": 34
+      },
+      {
+        "acceptance_rate": 0.9017315602527174,
+        "accepted_swaps": 1063449,
+        "attempts": 1179341,
+        "mean_edge_overlap": 0.07747017993774791,
+        "seed": 35
+      },
+      {
+        "acceptance_rate": 0.9015817223198594,
+        "accepted_swaps": 1063449,
+        "attempts": 1179537,
+        "mean_edge_overlap": 0.07803353732213579,
+        "seed": 36
+      },
+      {
+        "acceptance_rate": 0.9023949616198575,
+        "accepted_swaps": 1063449,
+        "attempts": 1178474,
+        "mean_edge_overlap": 0.07808117012347789,
+        "seed": 37
+      },
+      {
+        "acceptance_rate": 0.901892156172639,
+        "accepted_swaps": 1063449,
+        "attempts": 1179131,
+        "mean_edge_overlap": 0.07803492881677224,
+        "seed": 38
+      },
+      {
+        "acceptance_rate": 0.9019724755857801,
+        "accepted_swaps": 1063449,
+        "attempts": 1179026,
+        "mean_edge_overlap": 0.07769038031617836,
+        "seed": 39
+      },
+      {
+        "acceptance_rate": 0.9025488999578196,
+        "accepted_swaps": 1063449,
+        "attempts": 1178273,
+        "mean_edge_overlap": 0.07757823555054526,
+        "seed": 40
+      },
+      {
+        "acceptance_rate": 0.9021507592936164,
+        "accepted_swaps": 1063449,
+        "attempts": 1178793,
+        "mean_edge_overlap": 0.0776728257559072,
+        "seed": 41
+      },
+      {
+        "acceptance_rate": 0.9019304017281256,
+        "accepted_swaps": 1063449,
+        "attempts": 1179081,
+        "mean_edge_overlap": 0.0785679556818827,
+        "seed": 42
+      },
+      {
+        "acceptance_rate": 0.9016589285048108,
+        "accepted_swaps": 1063449,
+        "attempts": 1179436,
+        "mean_edge_overlap": 0.07754462685955085,
+        "seed": 43
+      },
+      {
+        "acceptance_rate": 0.9027733917383997,
+        "accepted_swaps": 1063449,
+        "attempts": 1177980,
+        "mean_edge_overlap": 0.07752353310955534,
+        "seed": 44
+      },
+      {
+        "acceptance_rate": 0.9024110422732176,
+        "accepted_swaps": 1063449,
+        "attempts": 1178453,
+        "mean_edge_overlap": 0.07781166269259045,
+        "seed": 45
+      },
+      {
+        "acceptance_rate": 0.9020390367949487,
+        "accepted_swaps": 1063449,
+        "attempts": 1178939,
+        "mean_edge_overlap": 0.07723505994797457,
+        "seed": 46
+      },
+      {
+        "acceptance_rate": 0.9016658089055108,
+        "accepted_swaps": 1063449,
+        "attempts": 1179427,
+        "mean_edge_overlap": 0.07800238809507826,
+        "seed": 47
+      },
+      {
+        "acceptance_rate": 0.9024646485904837,
+        "accepted_swaps": 1063449,
+        "attempts": 1178383,
+        "mean_edge_overlap": 0.07873123567318657,
+        "seed": 48
+      },
+      {
+        "acceptance_rate": 0.9018638565497028,
+        "accepted_swaps": 1063449,
+        "attempts": 1179168,
+        "mean_edge_overlap": 0.07758675151636435,
+        "seed": 49
+      },
+      {
+        "acceptance_rate": 0.9023980245572649,
+        "accepted_swaps": 1063449,
+        "attempts": 1178470,
+        "mean_edge_overlap": 0.0772388024211404,
+        "seed": 50
+      },
+      {
+        "acceptance_rate": 0.9018256166374665,
+        "accepted_swaps": 1063449,
+        "attempts": 1179218,
+        "mean_edge_overlap": 0.07759973053354391,
+        "seed": 51
+      },
+      {
+        "acceptance_rate": 0.9018202633085289,
+        "accepted_swaps": 1063449,
+        "attempts": 1179225,
+        "mean_edge_overlap": 0.07731493636114391,
+        "seed": 52
+      },
+      {
+        "acceptance_rate": 0.9024562243188611,
+        "accepted_swaps": 1063449,
+        "attempts": 1178394,
+        "mean_edge_overlap": 0.0779610216045557,
+        "seed": 53
+      },
+      {
+        "acceptance_rate": 0.9020696429465119,
+        "accepted_swaps": 1063449,
+        "attempts": 1178899,
+        "mean_edge_overlap": 0.07889322856443015,
+        "seed": 54
+      },
+      {
+        "acceptance_rate": 0.9018676807192899,
+        "accepted_swaps": 1063449,
+        "attempts": 1179163,
+        "mean_edge_overlap": 0.07802731447938134,
+        "seed": 55
+      },
+      {
+        "acceptance_rate": 0.9026101835607578,
+        "accepted_swaps": 1063449,
+        "attempts": 1178193,
+        "mean_edge_overlap": 0.07656666473993579,
+        "seed": 56
+      },
+      {
+        "acceptance_rate": 0.9015771362298789,
+        "accepted_swaps": 1063449,
+        "attempts": 1179543,
+        "mean_edge_overlap": 0.07750972831631965,
+        "seed": 57
+      },
+      {
+        "acceptance_rate": 0.9018585027667649,
+        "accepted_swaps": 1063449,
+        "attempts": 1179175,
+        "mean_edge_overlap": 0.07778652964202715,
+        "seed": 58
+      },
+      {
+        "acceptance_rate": 0.9016719249053984,
+        "accepted_swaps": 1063449,
+        "attempts": 1179419,
+        "mean_edge_overlap": 0.07749892079370505,
+        "seed": 59
+      },
+      {
+        "acceptance_rate": 0.9017896740766495,
+        "accepted_swaps": 1063449,
+        "attempts": 1179265,
+        "mean_edge_overlap": 0.07743429181185622,
+        "seed": 60
+      },
+      {
+        "acceptance_rate": 0.9019051592975743,
+        "accepted_swaps": 1063449,
+        "attempts": 1179114,
+        "mean_edge_overlap": 0.07686033271941865,
+        "seed": 61
+      },
+      {
+        "acceptance_rate": 0.9019365213180185,
+        "accepted_swaps": 1063449,
+        "attempts": 1179073,
+        "mean_edge_overlap": 0.07806029807632912,
+        "seed": 62
+      },
+      {
+        "acceptance_rate": 0.9022158159612049,
+        "accepted_swaps": 1063449,
+        "attempts": 1178708,
+        "mean_edge_overlap": 0.07747340322708524,
+        "seed": 63
+      },
+      {
+        "acceptance_rate": 0.9018110863210703,
+        "accepted_swaps": 1063449,
+        "attempts": 1179237,
+        "mean_edge_overlap": 0.07716792672439918,
+        "seed": 64
+      },
+      {
+        "acceptance_rate": 0.9021124950481108,
+        "accepted_swaps": 1063449,
+        "attempts": 1178843,
+        "mean_edge_overlap": 0.07663444453650833,
+        "seed": 65
+      },
+      {
+        "acceptance_rate": 0.9020474532795896,
+        "accepted_swaps": 1063449,
+        "attempts": 1178928,
+        "mean_edge_overlap": 0.07656448431700684,
+        "seed": 66
+      },
+      {
+        "acceptance_rate": 0.9023589736627519,
+        "accepted_swaps": 1063449,
+        "attempts": 1178521,
+        "mean_edge_overlap": 0.07744572566270479,
+        "seed": 67
+      },
+      {
+        "acceptance_rate": 0.9021545858967007,
+        "accepted_swaps": 1063449,
+        "attempts": 1178788,
+        "mean_edge_overlap": 0.0777433918593887,
+        "seed": 68
+      },
+      {
+        "acceptance_rate": 0.90195717554701,
+        "accepted_swaps": 1063449,
+        "attempts": 1179046,
+        "mean_edge_overlap": 0.0777795416489949,
+        "seed": 69
+      },
+      {
+        "acceptance_rate": 0.902358207992723,
+        "accepted_swaps": 1063449,
+        "attempts": 1178522,
+        "mean_edge_overlap": 0.07698343536124483,
+        "seed": 70
+      },
+      {
+        "acceptance_rate": 0.9014464522757211,
+        "accepted_swaps": 1063449,
+        "attempts": 1179714,
+        "mean_edge_overlap": 0.07686969474795115,
+        "seed": 71
+      },
+      {
+        "acceptance_rate": 0.9021323920506745,
+        "accepted_swaps": 1063449,
+        "attempts": 1178817,
+        "mean_edge_overlap": 0.07784450924103081,
+        "seed": 72
+      },
+      {
+        "acceptance_rate": 0.9018806831384748,
+        "accepted_swaps": 1063449,
+        "attempts": 1179146,
+        "mean_edge_overlap": 0.07809561270315271,
+        "seed": 73
+      },
+      {
+        "acceptance_rate": 0.902487624676137,
+        "accepted_swaps": 1063449,
+        "attempts": 1178353,
+        "mean_edge_overlap": 0.07798390437179928,
+        "seed": 74
+      },
+      {
+        "acceptance_rate": 0.9022081617486116,
+        "accepted_swaps": 1063449,
+        "attempts": 1178718,
+        "mean_edge_overlap": 0.07755413849081728,
+        "seed": 75
+      },
+      {
+        "acceptance_rate": 0.9021132603012109,
+        "accepted_swaps": 1063449,
+        "attempts": 1178842,
+        "mean_edge_overlap": 0.07901171229774709,
+        "seed": 76
+      },
+      {
+        "acceptance_rate": 0.9019587055275291,
+        "accepted_swaps": 1063449,
+        "attempts": 1179044,
+        "mean_edge_overlap": 0.0774155982814765,
+        "seed": 77
+      },
+      {
+        "acceptance_rate": 0.9016994479316728,
+        "accepted_swaps": 1063449,
+        "attempts": 1179383,
+        "mean_edge_overlap": 0.07769664728391398,
+        "seed": 78
+      },
+      {
+        "acceptance_rate": 0.9020979554858839,
+        "accepted_swaps": 1063449,
+        "attempts": 1178862,
+        "mean_edge_overlap": 0.07695766955795616,
+        "seed": 79
+      }
+    ],
+    "standard_deviation": 0.00047698449510420195,
+    "tail_probability": {
+      "lower_tail": 1.0,
+      "two_sided": 0.024691358024691357,
+      "upper_tail": 0.012345679012345678
+    }
+  },
+  "observed": {
+    "mean_edge_overlap": 0.11967702733589618,
+    "n_hyperedges": 38819,
+    "n_nodes": 18285
+  },
+  "schema_version": 1,
+  "selection": {
+    "max_posts_by_recorded_comment_count": 50000,
+    "non_singleton_hyperedges_only": true,
+    "reply_window_minutes": 60
+  },
+  "source_files": [
+    {
+      "dataset": "lnajt/moltbook",
+      "n_records": 2364644,
+      "relative_path": "Code/data/raw/moltbook_hf/lnajt/posts.parquet",
+      "sha256": "abac0c054646e49a4008e2782bdcf9132bbc8f637e925cae908dd92dda88292d"
+    },
+    {
+      "dataset": "iNLP-Lab/Moltbook-MoltNet",
+      "n_records": 3161324,
+      "relative_path": "Code/data/raw/moltbook_hf/moltnet/data/v2026-02-28/comments.parquet",
+      "sha256": "3fd76180339d6da5f3321d714531698c9bef04014ac94868803551699259d870"
+    }
+  ]
+}

@@ -1,0 +1,3764 @@
+{
+  "schema_version": 2,
+  "generated_at_utc": "2026-07-30T21:49:46.471119+00:00",
+  "protocol": {
+    "schema_version": 2,
+    "created_at_utc": "2026-08-17T15:21:34.258899+00:00",
+    "benchmark": "distributed_evidence_integration",
+    "script_sha256": "601367e2ea1b4569fb243d4ce16aeac71b8ee21efdb61ab9c68ae93e8ca8268a",
+    "manifest_sha256": "ebf64a427ccc6e37e67674d6315ede347f86a422662f158196676fab03e58ecb",
+    "mode": "full",
+    "models": [
+      {
+        "label": "DeepSeek-V4-Flash",
+        "model": "deepseek-v4-flash"
+      },
+      {
+        "label": "GPT-4.1-mini",
+        "model": "gpt-4.1-mini"
+      }
+    ],
+    "conditions": [
+      "solo",
+      "pairs",
+      "star",
+      "triads",
+      "five_cliques"
+    ],
+    "n_agents": 8,
+    "n_rounds": 3,
+    "temperature": 0,
+    "max_tokens": 512,
+    "task_ids": [
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T19",
+      "T20"
+    ],
+    "topology_seeds": [
+      0
+    ],
+    "primary_endpoint": "Run-level plurality accuracy, with ties counted as incorrect, averaged over frozen task instances.",
+    "secondary_endpoints": [
+      "Individual accuracy",
+      "Fraction of agents with evidence sufficient for a unique answer",
+      "Accuracy conditional on sufficient evidence",
+      "Brier score and JSON/API failure rates"
+    ],
+    "evidence_delivery": "Cards are passed losslessly to peers specified by the protocol at each synchronous round. Model prose is logged but never treated as an authoritative evidence channel.",
+    "gateway_limitation": "Configured model identifiers do not establish an immutable provider-side deployment revision."
+  },
+  "n_run_cells": 160,
+  "records": [
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 12009,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "D": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14792,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15582,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15161,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16230,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11685,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13609,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 2,
+        "H": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.027225000000000003,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16336,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15008,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17285,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11161,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13763,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 2,
+        "F": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.0625,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16666,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16334,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16652,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 12042,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "C": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.11500000000000003,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14098,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16707,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16479,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16766,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11766,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.5,
+      "mean_brier_score": 0.3400000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14985,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16764,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16507,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17630,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11387,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.6400000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13445,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15692,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16790,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16648,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11874,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "C": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15996,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16305,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16252,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 19468,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11317,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14698,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16130,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14802,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16301,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11124,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15752,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15906,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15783,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 2,
+        "D": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.0625,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17815,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11966,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13804,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15802,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14805,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17547,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11325,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "D": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14526,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16143,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15853,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17194,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11510,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 14172,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16491,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16633,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 18700,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 12010,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.11500000000000003,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16128,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15680,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15378,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16677,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11342,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "mean_brier_score": 0.26500000000000007,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15446,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16887,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15341,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16375,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11755,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.6400000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13826,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0625,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15347,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15536,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 19121,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 11645,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.04000000000000001,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 13934,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 16394,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 15333,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 17481,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5890,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 1,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.4574999999999999,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7224,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0006250000000000011,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8018,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7865,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8796,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5912,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.4162499999999999,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7189,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 2,
+        "H": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.08249999999999999,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8001,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7888,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.041666666666666664,
+      "total_tokens": 8668,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "H": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5871,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 1,
+        "C": 1,
+        "E": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.41624999999999995,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7245,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 2,
+        "F": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.2028125,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8039,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.08333333333333333,
+      "total_tokens": 7152,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 7
+      },
+      "consensus_share": 0.875,
+      "individual_accuracy": 0.875,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 0.875,
+      "parse_failure_fraction": 0.125
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.041666666666666664,
+      "total_tokens": 8406,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 7
+      },
+      "consensus_share": 0.875,
+      "individual_accuracy": 0.875,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 0.875,
+      "parse_failure_fraction": 0.125
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5867,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 3,
+        "C": 1,
+        "E": 1
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.35,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7127,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.00031250000000000055,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8041,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7918,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.041666666666666664,
+      "total_tokens": 8165,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5875,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "B": 4,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.5,
+      "mean_brier_score": 0.25875000000000004,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7201,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.00031250000000000055,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8049,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7957,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0006250000000000011,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8898,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5886,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 7,
+        "E": 1
+      },
+      "consensus_share": 0.875,
+      "individual_accuracy": 0.875,
+      "mean_brier_score": 0.21625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7060,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7963,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7894,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8763,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5883,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "C": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.41624999999999995,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7229,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0012500000000000022,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8028,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7694,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.00031250000000000055,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 9067,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "F": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5887,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.42499999999999993,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7431,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0012500000000000022,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8053,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7822,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8865,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5883,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "C": 1,
+        "E": 2
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.39999999999999997,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7401,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8040,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7943,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 2,
+        "D": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.2025,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8820,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5891,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.37875,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7214,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0006250000000000011,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8027,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7749,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8945,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "G": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5893,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 3,
+        "D": 1,
+        "E": 1
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.3837499999999999,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7276,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0012500000000000022,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8076,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7986,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.08333333333333333,
+      "total_tokens": 8125,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 0.75,
+      "parse_failure_fraction": 0.25
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5896,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 1,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.3837499999999999,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7098,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0015624999999999999,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8060,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7909,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8945,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5880,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 1,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "mean_brier_score": 0.40874999999999995,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7305,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0006250000000000011,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7995,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7922,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.00031250000000000055,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.08333333333333333,
+      "total_tokens": 8070,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 6
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 0.75,
+      "parse_failure_fraction": 0.25
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5891,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.375,
+      "mean_brier_score": 0.29999999999999993,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7325,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0012500000000000022,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8048,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7750,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8843,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5893,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 6,
+        "E": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.75,
+      "mean_brier_score": 0.25125,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7276,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0040625,
+      "solvable_agent_fraction": 0.75,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8005,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7975,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 9109,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "solo",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 5890,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 1,
+        "E": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "mean_brier_score": 0.33499999999999996,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "pairs",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7117,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.00031250000000000055,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "star",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8004,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "triads",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 7902,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "five_cliques",
+      "topology_seed": 0,
+      "api_error_fraction": 0.0,
+      "total_tokens": 8918,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "mean_brier_score": 0.0,
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0
+    }
+  ],
+  "by_model_condition": {
+    "DeepSeek-V4-Flash::five_cliques": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "five_cliques",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 1.0,
+      "individual_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 17368.125
+    },
+    "DeepSeek-V4-Flash::pairs": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "pairs",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 0.96875,
+      "individual_accuracy_ci95": [
+        0.921875,
+        1.0
+      ],
+      "solvable_agent_fraction": 0.953125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 14560.875
+    },
+    "DeepSeek-V4-Flash::solo": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "solo",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.1953125,
+      "individual_accuracy_ci95": [
+        0.046875,
+        0.375
+      ],
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 11619.875
+    },
+    "DeepSeek-V4-Flash::star": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "star",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 1.0,
+      "individual_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 16177.0
+    },
+    "DeepSeek-V4-Flash::triads": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "triads",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 0.984375,
+      "individual_accuracy_ci95": [
+        0.953125,
+        1.0
+      ],
+      "solvable_agent_fraction": 0.984375,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 15749.6875
+    },
+    "GPT-4.1-mini::five_cliques": {
+      "model": "GPT-4.1-mini",
+      "condition": "five_cliques",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 0.9609375,
+      "individual_accuracy_ci95": [
+        0.9140625,
+        1.0
+      ],
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 0.9609375,
+      "parse_failure_fraction": 0.0390625,
+      "api_error_fraction": 0.018229166666666664,
+      "mean_total_tokens_per_cell": 8712.6875
+    },
+    "GPT-4.1-mini::pairs": {
+      "model": "GPT-4.1-mini",
+      "condition": "pairs",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 0.96875,
+      "individual_accuracy_ci95": [
+        0.921875,
+        1.0
+      ],
+      "solvable_agent_fraction": 0.953125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 7232.375
+    },
+    "GPT-4.1-mini::solo": {
+      "model": "GPT-4.1-mini",
+      "condition": "solo",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 0.1875,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.375
+      ],
+      "individual_accuracy": 0.1875,
+      "individual_accuracy_ci95": [
+        0.0625,
+        0.3359375
+      ],
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 5886.75
+    },
+    "GPT-4.1-mini::star": {
+      "model": "GPT-4.1-mini",
+      "condition": "star",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 1.0,
+      "individual_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "solvable_agent_fraction": 1.0,
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 8027.9375
+    },
+    "GPT-4.1-mini::triads": {
+      "model": "GPT-4.1-mini",
+      "condition": "triads",
+      "n_task_protocol_cells": 16,
+      "group_plurality_accuracy": 1.0,
+      "group_plurality_accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "individual_accuracy": 0.9765625,
+      "individual_accuracy_ci95": [
+        0.9453125,
+        1.0
+      ],
+      "solvable_agent_fraction": 0.984375,
+      "conditional_accuracy_when_solvable": 0.9921875,
+      "parse_failure_fraction": 0.0078125,
+      "api_error_fraction": 0.005208333333333333,
+      "mean_total_tokens_per_cell": 7832.875
+    }
+  },
+  "paired_group_accuracy_contrasts": {
+    "DeepSeek-V4-Flash::pairs_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.875,
+      "ci95": [
+        0.6875,
+        1.0
+      ]
+    },
+    "DeepSeek-V4-Flash::star_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.875,
+      "ci95": [
+        0.6875,
+        1.0
+      ]
+    },
+    "DeepSeek-V4-Flash::triads_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.875,
+      "ci95": [
+        0.6875,
+        1.0
+      ]
+    },
+    "DeepSeek-V4-Flash::five_cliques_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.875,
+      "ci95": [
+        0.6875,
+        1.0
+      ]
+    },
+    "GPT-4.1-mini::pairs_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.8125,
+      "ci95": [
+        0.625,
+        1.0
+      ]
+    },
+    "GPT-4.1-mini::star_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.8125,
+      "ci95": [
+        0.625,
+        1.0
+      ]
+    },
+    "GPT-4.1-mini::triads_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.8125,
+      "ci95": [
+        0.625,
+        1.0
+      ]
+    },
+    "GPT-4.1-mini::five_cliques_minus_solo": {
+      "n_matched_cells": 16,
+      "mean_group_accuracy_difference": 0.8125,
+      "ci95": [
+        0.625,
+        1.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,4653 @@
+{
+  "schema_version": 1,
+  "benchmark": "matched_one_round_relay_ablation",
+  "status": "post_hoc_mechanism_ablation",
+  "generated_at_utc": "2026-07-30T12:00:00+00:00",
+  "source_manifest_sha256": "fc220c5c30852e3f598638a78f5641b742b0243fc608ff0adf5a157506133e7c",
+  "protocol_sha256": "ad065bb17920f5eb815dfce40302a5cf2b078d2b0cf8e70a610dc2e74e1d9bc2",
+  "source_two_round_summary": "../../llm_relay_benchmark/results/summary.json",
+  "n_expected_cells": 160,
+  "n_completed_cells": 160,
+  "records": [
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3701,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3124,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 4,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4138,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "H": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.04625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3619,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0799,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T05",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3255,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "H": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.040837500000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3530,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3781,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3804,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "H": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0490625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3567,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0973,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T06",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4569,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "E": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1796875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3489,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3349,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "D": 2
+      },
+      "consensus_share": 0.25,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3471,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 4,
+        "D": 3,
+        "F": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.04625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3825,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 3,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0973,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T07",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 6395,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 3,
+        "F": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1796875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3590,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.027737500000000005,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3687,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.045625000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3891,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.16843750000000002,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4556,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T08",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4627,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "C": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.26708750000000003,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3300,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.19348749999999998,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3320,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.5,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.306875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3931,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.17125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4091,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.351775,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T09",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3253,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3398,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.6909874999999999,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3901,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.6400000000000001,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3649,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.5115625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3773,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.47729999999999995,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T10",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3523,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.16833749999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3652,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028487500000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3485,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "E": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3476,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "F": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.04625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3839,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.07146250000000001,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T11",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4616,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "F": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1796875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3803,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3845,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.051250000000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3363,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 1,
+        "G": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0490625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4330,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 3,
+        "C": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0799,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T12",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3401,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "G": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3653,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3450,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 4,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.181875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4088,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "D": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0490625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3366,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 3,
+        "D": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1271875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T13",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3514,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.16833749999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3304,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 1,
+        "C": 1
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3506,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.045625000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3386,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 1,
+        "C": 1,
+        "G": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0490625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4042,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0973,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T14",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3088,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 3,
+        "G": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3461,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3415,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3705,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "E": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.04625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4017,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "C": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0973,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T15",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4902,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 3,
+        "E": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1970875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3504,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3176,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3568,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "E": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.04625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4088,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "C": 3,
+        "D": 2
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0799,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T16",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4952,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "D": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1970875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3222,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3278,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3711,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.1740625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 4292,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T17",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 5443,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0915,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3263,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1934875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3869,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.20125000000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3718,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.18375000000000002,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3737,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.36917500000000003,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T18",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3357,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3306,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.6827874999999999,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3579,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.6012500000000001,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3562,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.52125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3929,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.496675,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T19",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 5651,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.3245874999999999,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3332,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 1,
+        "C": 1
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.028900000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3775,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.056875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3400,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 2,
+        "D": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.043437500000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 3632,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.0973,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "model_slug": "deepseek_v4_flash",
+      "task_id": "T20",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 6159,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.1796875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1609,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.33999999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1674,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 4,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.169375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1735,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "H": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.1290625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1743,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.423125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T05",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1764,
+      "plurality_answer": "H",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "H": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.18374999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1621,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.42999999999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1702,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.3134375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1747,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "H": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.1959375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1747,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.43656249999999996,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T06",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1818,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "E": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.41000000000000003,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1573,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.28,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1681,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "D": 2
+      },
+      "consensus_share": 0.25,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.22281249999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1737,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 4,
+        "D": 3,
+        "F": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.22250000000000003,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1747,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 3,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.43656249999999996,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T07",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1803,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 3,
+        "F": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.233125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1620,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.2812,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1698,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.2371875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1737,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.2415625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1764,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.38312499999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T08",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1807,
+      "plurality_answer": "C",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "C": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.33999999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1634,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.33999999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1693,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.5,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.375625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1734,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.330625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1760,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.21531250000000002,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T09",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1728,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1604,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.13,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1726,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.10250000000000001,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1733,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.2959375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1752,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.14906250000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T10",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1759,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0786125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1626,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.48999999999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1690,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "E": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.24625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1754,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "F": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.22874999999999998,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1756,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.37406249999999996,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T11",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1816,
+      "plurality_answer": "F",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "F": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.31,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1602,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "C": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.31,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1703,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.41375000000000006,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1724,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 1,
+        "G": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.155,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1743,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "B": 3,
+        "C": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.28784999999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T12",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1740,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 3,
+        "G": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1635,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.42906249999999996,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1705,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 4,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.515,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1724,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 3,
+        "D": 1
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.155,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1722,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 2,
+        "B": 3,
+        "D": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.3140625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T13",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1761,
+      "plurality_answer": "D",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "D": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.0786125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1584,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 1,
+        "C": 1
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.37,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1709,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "D": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.328125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1740,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 1,
+        "C": 1,
+        "G": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.21218749999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1747,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "E": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.503125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T14",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1725,
+      "plurality_answer": "G",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "E": 3,
+        "G": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1557,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.33999999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1702,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.3671875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1736,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "E": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.25,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1744,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 2,
+        "C": 3
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.38312499999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T15",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1839,
+      "plurality_answer": "E",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "C": 3,
+        "E": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.25375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1590,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.31,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1677,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.169375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1724,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 2,
+        "E": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.17750000000000002,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1732,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "C": 3,
+        "D": 2
+      },
+      "consensus_share": 0.375,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.2228125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T16",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1790,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "D": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.24583750000000001,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1619,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.31,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1665,
+      "plurality_answer": null,
+      "plurality_tied": true,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 4
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.123125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1732,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.3425,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1734,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.24625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T17",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1870,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.48999999999999994,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1622,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.33999999999999997,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1686,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 2
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.25,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.19375000000000003,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1768,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "B": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.375,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.199375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1758,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 3,
+        "B": 5
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.625,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.2098625,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T18",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1719,
+      "plurality_answer": "B",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "B": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.625,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.09375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1594,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.13,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1718,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.13625000000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1744,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.31843750000000004,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1759,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.2536125,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T19",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1811,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": true,
+      "answer_counts": {
+        "A": 8
+      },
+      "consensus_share": 1.0,
+      "individual_accuracy": 1.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.253475,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "solo",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1590,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 6,
+        "B": 1,
+        "C": 1
+      },
+      "consensus_share": 0.75,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.31,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "pairs",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1714,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "consensus_share": 0.5,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.401875,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "star",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1741,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 2,
+        "D": 1
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.125,
+      "solvable_agent_fraction": 0.125,
+      "conditional_accuracy_when_solvable": 1.0,
+      "mean_brier_score": 0.259375,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "triads",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1748,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.43656249999999996,
+      "parse_failure_fraction": 0.0
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "model_slug": "gpt_4_1_mini",
+      "task_id": "T20",
+      "condition": "five_cliques",
+      "api_error_fraction": 0.0,
+      "total_tokens": 1818,
+      "plurality_answer": "A",
+      "plurality_tied": false,
+      "plurality_correct": false,
+      "answer_counts": {
+        "A": 5,
+        "C": 3
+      },
+      "consensus_share": 0.625,
+      "individual_accuracy": 0.0,
+      "solvable_agent_fraction": 0.0,
+      "conditional_accuracy_when_solvable": null,
+      "mean_brier_score": 0.5237500000000002,
+      "parse_failure_fraction": 0.0
+    }
+  ],
+  "by_model_condition": {
+    "DeepSeek-V4-Flash::five_cliques": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "five_cliques",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.75,
+      "group_plurality_accuracy_ci95": [
+        0.5,
+        0.9375
+      ],
+      "individual_accuracy": 0.5859375,
+      "individual_accuracy_ci95": [
+        0.3984375,
+        0.7578125
+      ],
+      "solvable_agent_fraction": 0.2734375,
+      "solvable_agent_fraction_ci95": [
+        0.1171875,
+        0.4296875
+      ],
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 4419.0625
+    },
+    "DeepSeek-V4-Flash::pairs": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "pairs",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.1875,
+      "individual_accuracy_ci95": [
+        0.046875,
+        0.375
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 3533.75
+    },
+    "DeepSeek-V4-Flash::solo": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "solo",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.15625,
+      "individual_accuracy_ci95": [
+        0.015625,
+        0.3285156249999943
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 3469.25
+    },
+    "DeepSeek-V4-Flash::star": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "star",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.296875,
+      "individual_accuracy_ci95": [
+        0.171875,
+        0.4453125
+      ],
+      "solvable_agent_fraction": 0.125,
+      "solvable_agent_fraction_ci95": [
+        0.125,
+        0.125
+      ],
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 3678.8125
+    },
+    "DeepSeek-V4-Flash::triads": {
+      "model": "DeepSeek-V4-Flash",
+      "condition": "triads",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.25,
+      "group_plurality_accuracy_ci95": [
+        0.0625,
+        0.5
+      ],
+      "individual_accuracy": 0.2265625,
+      "individual_accuracy_ci95": [
+        0.0625,
+        0.4140625
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 3918.9375
+    },
+    "GPT-4.1-mini::five_cliques": {
+      "model": "GPT-4.1-mini",
+      "condition": "five_cliques",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.75,
+      "group_plurality_accuracy_ci95": [
+        0.5,
+        0.9375
+      ],
+      "individual_accuracy": 0.5859375,
+      "individual_accuracy_ci95": [
+        0.3984375,
+        0.765625
+      ],
+      "solvable_agent_fraction": 0.2734375,
+      "solvable_agent_fraction_ci95": [
+        0.1171875,
+        0.4296875
+      ],
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 1785.5
+    },
+    "GPT-4.1-mini::pairs": {
+      "model": "GPT-4.1-mini",
+      "condition": "pairs",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.1875,
+      "individual_accuracy_ci95": [
+        0.046875,
+        0.359375
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 1696.4375
+    },
+    "GPT-4.1-mini::solo": {
+      "model": "GPT-4.1-mini",
+      "condition": "solo",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.15625,
+      "individual_accuracy_ci95": [
+        0.015625,
+        0.34375
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 1605.0
+    },
+    "GPT-4.1-mini::star": {
+      "model": "GPT-4.1-mini",
+      "condition": "star",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.125,
+      "group_plurality_accuracy_ci95": [
+        0.0,
+        0.3125
+      ],
+      "individual_accuracy": 0.296875,
+      "individual_accuracy_ci95": [
+        0.171875,
+        0.4453125
+      ],
+      "solvable_agent_fraction": 0.125,
+      "solvable_agent_fraction_ci95": [
+        0.125,
+        0.125
+      ],
+      "conditional_accuracy_when_solvable": 1.0,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 1738.125
+    },
+    "GPT-4.1-mini::triads": {
+      "model": "GPT-4.1-mini",
+      "condition": "triads",
+      "n_task_cells": 16,
+      "group_plurality_accuracy": 0.25,
+      "group_plurality_accuracy_ci95": [
+        0.0625,
+        0.5
+      ],
+      "individual_accuracy": 0.2265625,
+      "individual_accuracy_ci95": [
+        0.0625,
+        0.4140625
+      ],
+      "solvable_agent_fraction": 0.0,
+      "solvable_agent_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "conditional_accuracy_when_solvable": null,
+      "parse_failure_fraction": 0.0,
+      "api_error_fraction": 0.0,
+      "mean_total_tokens_per_cell": 1747.25
+    }
+  },
+  "paired_group_accuracy_contrasts": {
+    "DeepSeek-V4-Flash::pairs_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "DeepSeek-V4-Flash::star_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "DeepSeek-V4-Flash::triads_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.125,
+      "ci95": [
+        0.0,
+        0.3125
+      ]
+    },
+    "DeepSeek-V4-Flash::five_cliques_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.625,
+      "ci95": [
+        0.375,
+        0.875
+      ]
+    },
+    "GPT-4.1-mini::pairs_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "GPT-4.1-mini::star_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "GPT-4.1-mini::triads_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.125,
+      "ci95": [
+        0.0,
+        0.3125
+      ]
+    },
+    "GPT-4.1-mini::five_cliques_minus_solo": {
+      "n_matched_task_cells": 16,
+      "mean_group_accuracy_difference": 0.625,
+      "ci95": [
+        0.375,
+        0.875
+      ]
+    }
+  },
+  "deterministic_access": {
+    "five_cliques": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.2734375,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.625,
+        "T06": 0.0,
+        "T07": 0.0,
+        "T08": 0.0,
+        "T09": 0.625,
+        "T10": 0.625,
+        "T11": 0.0,
+        "T12": 0.625,
+        "T13": 0.625,
+        "T14": 0.625,
+        "T15": 0.0,
+        "T16": 0.0,
+        "T17": 0.0,
+        "T18": 0.625,
+        "T19": 0.0,
+        "T20": 0.0
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          5,
+          5,
+          5,
+          3,
+          3,
+          5,
+          5,
+          3
+        ],
+        "T06": [
+          5,
+          5,
+          5,
+          3,
+          5,
+          3,
+          5,
+          3
+        ],
+        "T07": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3,
+          3
+        ],
+        "T08": [
+          5,
+          5,
+          5,
+          3,
+          5,
+          3,
+          3,
+          5
+        ],
+        "T09": [
+          5,
+          5,
+          5,
+          3,
+          3,
+          5,
+          5,
+          3
+        ],
+        "T10": [
+          5,
+          3,
+          3,
+          3,
+          5,
+          5,
+          5,
+          5
+        ],
+        "T11": [
+          5,
+          3,
+          5,
+          3,
+          3,
+          5,
+          5,
+          5
+        ],
+        "T12": [
+          5,
+          5,
+          5,
+          5,
+          3,
+          3,
+          3,
+          5
+        ],
+        "T13": [
+          5,
+          3,
+          3,
+          5,
+          3,
+          5,
+          5,
+          5
+        ],
+        "T14": [
+          5,
+          5,
+          3,
+          3,
+          5,
+          5,
+          5,
+          3
+        ],
+        "T15": [
+          3,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          3
+        ],
+        "T16": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3,
+          3
+        ],
+        "T17": [
+          5,
+          3,
+          3,
+          3,
+          5,
+          5,
+          5,
+          5
+        ],
+        "T18": [
+          3,
+          5,
+          5,
+          5,
+          3,
+          5,
+          3,
+          5
+        ],
+        "T19": [
+          5,
+          5,
+          3,
+          5,
+          5,
+          3,
+          5,
+          3
+        ],
+        "T20": [
+          3,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3,
+          5
+        ]
+      }
+    },
+    "pairs": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.0,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.0,
+        "T06": 0.0,
+        "T07": 0.0,
+        "T08": 0.0,
+        "T09": 0.0,
+        "T10": 0.0,
+        "T11": 0.0,
+        "T12": 0.0,
+        "T13": 0.0,
+        "T14": 0.0,
+        "T15": 0.0,
+        "T16": 0.0,
+        "T17": 0.0,
+        "T18": 0.0,
+        "T19": 0.0,
+        "T20": 0.0
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T06": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T07": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T08": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T09": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T10": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T11": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T12": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T13": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T14": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T15": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T16": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T17": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T18": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T19": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T20": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "solo": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.0,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.0,
+        "T06": 0.0,
+        "T07": 0.0,
+        "T08": 0.0,
+        "T09": 0.0,
+        "T10": 0.0,
+        "T11": 0.0,
+        "T12": 0.0,
+        "T13": 0.0,
+        "T14": 0.0,
+        "T15": 0.0,
+        "T16": 0.0,
+        "T17": 0.0,
+        "T18": 0.0,
+        "T19": 0.0,
+        "T20": 0.0
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T06": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T07": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T08": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T09": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T10": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T11": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T12": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T13": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T14": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T15": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T16": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T17": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T18": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T19": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "T20": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "star": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.125,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.125,
+        "T06": 0.125,
+        "T07": 0.125,
+        "T08": 0.125,
+        "T09": 0.125,
+        "T10": 0.125,
+        "T11": 0.125,
+        "T12": 0.125,
+        "T13": 0.125,
+        "T14": 0.125,
+        "T15": 0.125,
+        "T16": 0.125,
+        "T17": 0.125,
+        "T18": 0.125,
+        "T19": 0.125,
+        "T20": 0.125
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          8,
+          2
+        ],
+        "T06": [
+          8,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T07": [
+          8,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T08": [
+          2,
+          2,
+          8,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T09": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          8,
+          2,
+          2
+        ],
+        "T10": [
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T11": [
+          2,
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2
+        ],
+        "T12": [
+          2,
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2
+        ],
+        "T13": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          8
+        ],
+        "T14": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          8,
+          2,
+          2
+        ],
+        "T15": [
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T16": [
+          8,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T17": [
+          2,
+          8,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T18": [
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T19": [
+          2,
+          2,
+          2,
+          8,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T20": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          8,
+          2
+        ]
+      }
+    },
+    "triads": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.0,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.0,
+        "T06": 0.0,
+        "T07": 0.0,
+        "T08": 0.0,
+        "T09": 0.0,
+        "T10": 0.0,
+        "T11": 0.0,
+        "T12": 0.0,
+        "T13": 0.0,
+        "T14": 0.0,
+        "T15": 0.0,
+        "T16": 0.0,
+        "T17": 0.0,
+        "T18": 0.0,
+        "T19": 0.0,
+        "T20": 0.0
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "T06": [
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "T07": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3,
+          2
+        ],
+        "T08": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "T09": [
+          3,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ],
+        "T10": [
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          3,
+          3
+        ],
+        "T11": [
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "T12": [
+          2,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "T13": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        "T14": [
+          3,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3
+        ],
+        "T15": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3,
+          2
+        ],
+        "T16": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3
+        ],
+        "T17": [
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "T18": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "T19": [
+          3,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3
+        ],
+        "T20": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ]
+      }
+    }
+  },
+  "failure_counts": {
+    "api_error_calls": 0,
+    "expected_calls": 1280,
+    "parsed_final_decisions": 1280
+  },
+  "interpretation_boundary": "This matched ablation reuses the previously analysed task manifest. It is not an independent held-out replication and does not isolate topology from group size or centralisation."
+}

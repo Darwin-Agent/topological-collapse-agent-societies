@@ -1,0 +1,84 @@
+{
+  "sociopatterns": {
+    "name": "SocioPatterns",
+    "n_nodes": 403,
+    "n_pairwise": 77190,
+    "n_hyperedges": 244,
+    "phi": 1.256772817985296,
+    "beta2_eff": 3.4257147917643165,
+    "n_repeats": 20,
+    "rho0_results": {
+      "rho0=0.05": {
+        "ode_final": 0.9704606620450754,
+        "mc_final_mean": 0.903846153846154,
+        "mc_final_std": 0.012576386434685673,
+        "rmse": 0.13640003718379573,
+        "mae": 0.07946953611135678,
+        "frac_within_1sigma": 0.0,
+        "ks_statistic": 0.9999842461363608,
+        "ks_pvalue": 1.773256808989057e-96
+      },
+      "rho0=0.15": {
+        "ode_final": 0.9704606620450764,
+        "mc_final_mean": 0.9021091811414392,
+        "mc_final_std": 0.01249287859996304,
+        "rmse": 0.08864038112331574,
+        "mae": 0.06683086876109197,
+        "frac_within_1sigma": 0.0,
+        "ks_statistic": 0.9999860589515297,
+        "ks_pvalue": 1.537937684953999e-97
+      },
+      "rho0=0.25": {
+        "ode_final": 0.9704606620450761,
+        "mc_final_mean": 0.9008684863523573,
+        "mc_final_std": 0.012809234880492288,
+        "rmse": 0.0772821799848757,
+        "mae": 0.06446852207877882,
+        "frac_within_1sigma": 0.0033333333333333335,
+        "ks_statistic": 0.9997720964465888,
+        "ks_pvalue": 2.8579322445983414e-73
+      }
+    }
+  },
+  "moltbook_sub": {
+    "name": "Moltbook (sub)",
+    "n_nodes": 500,
+    "n_pairwise": 9787,
+    "n_hyperedges": 2029,
+    "phi": 0.8366679292859429,
+    "beta2_eff": 2.280591734745181,
+    "n_repeats": 20,
+    "rho0_results": {
+      "rho0=0.05": {
+        "ode_final": 0.9560120723620549,
+        "mc_final_mean": 0.7901,
+        "mc_final_std": 0.011161989070053786,
+        "rmse": 0.19654488237495535,
+        "mae": 0.18068885140699104,
+        "frac_within_1sigma": 0.0,
+        "ks_statistic": 1.0,
+        "ks_pvalue": 0.0
+      },
+      "rho0=0.15": {
+        "ode_final": 0.9560120723620549,
+        "mc_final_mean": 0.7859,
+        "mc_final_std": 0.015741346829290057,
+        "rmse": 0.17146345529884607,
+        "mae": 0.169619088936654,
+        "frac_within_1sigma": 0.0033333333333333335,
+        "ks_statistic": 1.0,
+        "ks_pvalue": 0.0
+      },
+      "rho0=0.25": {
+        "ode_final": 0.9560120723620549,
+        "mc_final_mean": 0.7819000000000002,
+        "mc_final_std": 0.013303758867327696,
+        "rmse": 0.16863590029251813,
+        "mae": 0.16820579174683947,
+        "frac_within_1sigma": 0.0,
+        "ks_statistic": 1.0,
+        "ks_pvalue": 0.0
+      }
+    }
+  }
+}

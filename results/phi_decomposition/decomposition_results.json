@@ -1,0 +1,189 @@
+{
+  "shapley": {
+    "shapley_values": {
+      "closure": 0.391147128956586,
+      "overlap": 0.19487771225878747,
+      "heterogeneity": -0.4747289038127746,
+      "HIS": 0.4922735325011862
+    },
+    "phi_molt": 0.6483727740235308,
+    "phi_sp": 1.2519422439273158,
+    "phi_gap": 0.603569469903785,
+    "sum_shapley": 0.603569469903785,
+    "pct_contributions": {
+      "closure": 64.80565178668476,
+      "overlap": 32.28753639408781,
+      "heterogeneity": -78.65356474847064,
+      "HIS": 81.56037656769809
+    },
+    "components_molt": {
+      "closure": 0.643,
+      "overlap": 1.256,
+      "heterogeneity": 1.958124498288142,
+      "HIS": 0.41
+    },
+    "components_sp": {
+      "closure": 0.97,
+      "overlap": 1.538,
+      "heterogeneity": 1.2162059772163762,
+      "HIS": 0.69
+    }
+  },
+  "leave_one_out": {
+    "phi_molt": 0.6483727740235308,
+    "phi_sp": 1.2519422439273158,
+    "factors": {
+      "closure": {
+        "phi_swapped": 0.9781051178893078,
+        "delta_phi": 0.329732343865777,
+        "pct_increase": 50.855365474339045,
+        "pct_of_total_gap": 54.63038810070026,
+        "component_molt": 0.643,
+        "component_sp": 0.97,
+        "component_ratio": 1.5085536547433902
+      },
+      "overlap": {
+        "phi_swapped": 0.7939469159619351,
+        "delta_phi": 0.14557414193840434,
+        "pct_increase": 22.45222929936308,
+        "pct_of_total_gap": 24.1188710160589,
+        "component_molt": 1.256,
+        "component_sp": 1.538,
+        "component_ratio": 1.2245222929936306
+      },
+      "heterogeneity": {
+        "phi_swapped": 0.40270924750758286,
+        "delta_phi": -0.24566352651594792,
+        "pct_increase": -37.8892415533525,
+        "pct_of_total_gap": -40.70178144615385,
+        "component_molt": 1.958124498288142,
+        "component_sp": 1.2162059772163762,
+        "component_ratio": 0.6211075844664751
+      },
+      "HIS": {
+        "phi_swapped": 1.0911639367713077,
+        "delta_phi": 0.44279116274777697,
+        "pct_increase": 68.29268292682926,
+        "pct_of_total_gap": 73.36208751883396,
+        "component_molt": 0.41,
+        "component_sp": 0.69,
+        "component_ratio": 1.6829268292682926
+      }
+    }
+  },
+  "log_decomposition": {
+    "log_phi_ratio": 0.6579856200439221,
+    "phi_ratio": 1.9308988502991649,
+    "contributions": {
+      "closure": {
+        "log_ratio": 0.411151347259809,
+        "pct_of_log_total": 62.486372761818664
+      },
+      "overlap": {
+        "log_ratio": 0.2025508030374453,
+        "pct_of_log_total": 30.783469557271566
+      },
+      "heterogeneity": {
+        "log_ratio": -0.47625096814628376,
+        "pct_of_log_total": -72.38014838599251
+      },
+      "HIS": {
+        "log_ratio": 0.5205344378929515,
+        "pct_of_log_total": 79.11030606690228
+      }
+    },
+    "sum_log_contributions": 0.657985620043922
+  },
+  "bootstrap": {
+    "closure": {
+      "mean": 0.37791415802666595,
+      "std": 0.07092116091659002,
+      "ci_95": [
+        0.2390819641928632,
+        0.5116636924247292
+      ],
+      "pct_mean": 65.64853315213821,
+      "pct_ci_95": [
+        45.339409153827,
+        92.70994313410226
+      ]
+    },
+    "overlap": {
+      "mean": 0.19360291897487827,
+      "std": 0.026920625581911585,
+      "ci_95": [
+        0.14456039647606705,
+        0.24586913733479962
+      ],
+      "pct_mean": 34.17265607154117,
+      "pct_ci_95": [
+        22.609016549745263,
+        52.72000338670423
+      ]
+    },
+    "heterogeneity": {
+      "mean": -0.47422082093868495,
+      "std": 0.07724180922676314,
+      "ci_95": [
+        -0.6225508670000292,
+        -0.34209873060063206
+      ],
+      "pct_mean": -84.89078791670121,
+      "pct_ci_95": [
+        -145.5618621610444,
+        -48.869822500761856
+      ]
+    },
+    "HIS": {
+      "mean": 0.4893877301434479,
+      "std": 0.08509672956659424,
+      "ci_95": [
+        0.33733007427095013,
+        0.6534945779681557
+      ],
+      "pct_mean": 85.06959869302185,
+      "pct_ci_95": [
+        62.05785388107811,
+        120.1438573331261
+      ]
+    }
+  },
+  "dynamics": {
+    "Moltbook (original)": {
+      "phi": 0.6483727740235308,
+      "beta2_eff": 1.7673362844609668,
+      "final_rho": 0.9433465241904528,
+      "is_bistable": true
+    },
+    "Swap closure": {
+      "phi": 0.9781051178893078,
+      "beta2_eff": 2.666121611084196,
+      "final_rho": 0.9624617039999167,
+      "is_bistable": false
+    },
+    "Swap overlap": {
+      "phi": 0.7939469159619351,
+      "beta2_eff": 2.164142679538987,
+      "final_rho": 0.9537454048097559,
+      "is_bistable": true
+    },
+    "Swap heterogeneity": {
+      "phi": 0.40270924750758286,
+      "beta2_eff": 1.097705970581506,
+      "final_rho": 0.9051602407332026,
+      "is_bistable": true
+    },
+    "Swap HIS": {
+      "phi": 1.0911639367713077,
+      "beta2_eff": 2.9742976494587,
+      "final_rho": 0.9663541072542209,
+      "is_bistable": false
+    },
+    "SocioPatterns (target)": {
+      "phi": 1.2519422439273158,
+      "beta2_eff": 3.4125475997576786,
+      "final_rho": 0.9703454185927416,
+      "is_bistable": true
+    }
+  }
+}

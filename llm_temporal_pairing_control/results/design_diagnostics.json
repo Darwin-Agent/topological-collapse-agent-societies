@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "benchmark": "temporal_pairing_relay_control",
+  "generated_at_utc": "2026-07-31T12:00:00+00:00",
+  "manifest_sha256": "e24c21806f66c8fc05c0bfe93a468945ad3365b968277e5ba87c549545311d54",
+  "protocol_sha256": {
+    "pilot": "466f874bf8834978c9f9a69be4b11091ec687044f36b6044e313f909651e38b3",
+    "full": "ceb84cf8837464b6ea55ce16af98995925c6612bab6a97c1676d851ca66be34f"
+  },
+  "schedule_diagnostics": {
+    "n_heldout_tasks": 16,
+    "n_agents": 8,
+    "n_rounds": 4,
+    "groups_per_round": 4,
+    "group_size": 2,
+    "agent_group_memberships_per_round": 1,
+    "broadcasts_per_agent_per_round": 1,
+    "pair_slots_per_round": 4,
+    "matched_controls": [
+      "Agent count",
+      "Four dyadic groups per round",
+      "Dyad size",
+      "Per-agent group membership per round",
+      "One card broadcast per agent per round",
+      "Four-round relay budget"
+    ],
+    "condition_difference": "Repeated pairs reuse the task-specific first matching each round; rotating pairs use four distinct matchings from the same task-specific one-factorization.",
+    "model_prompt_protocol_label": "controlled pair protocol"
+  },
+  "deterministic_access": {
+    "repeated_pairs": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.0,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.0,
+        "T06": 0.0,
+        "T07": 0.0,
+        "T08": 0.0,
+        "T09": 0.0,
+        "T10": 0.0,
+        "T11": 0.0,
+        "T12": 0.0,
+        "T13": 0.0,
+        "T14": 0.0,
+        "T15": 0.0,
+        "T16": 0.0,
+        "T17": 0.0,
+        "T18": 0.0,
+        "T19": 0.0,
+        "T20": 0.0
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T06": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T07": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T08": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T09": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T10": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T11": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T12": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T13": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T14": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T15": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T16": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T17": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T18": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T19": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "T20": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "rotating_pairs": {
+      "n_heldout_tasks": 16,
+      "mean_sufficient_agent_fraction": 0.40625,
+      "task_level_sufficient_agent_fraction": {
+        "T05": 0.375,
+        "T06": 0.25,
+        "T07": 0.5,
+        "T08": 0.375,
+        "T09": 0.375,
+        "T10": 0.5,
+        "T11": 0.375,
+        "T12": 0.25,
+        "T13": 0.375,
+        "T14": 0.5,
+        "T15": 0.25,
+        "T16": 0.625,
+        "T17": 0.5,
+        "T18": 0.375,
+        "T19": 0.625,
+        "T20": 0.25
+      },
+      "card_count_by_task_and_agent": {
+        "T05": [
+          5,
+          4,
+          5,
+          4,
+          5,
+          3,
+          5,
+          5
+        ],
+        "T06": [
+          5,
+          5,
+          3,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "T07": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          3
+        ],
+        "T08": [
+          5,
+          3,
+          5,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "T09": [
+          5,
+          5,
+          4,
+          3,
+          5,
+          5,
+          4,
+          4
+        ],
+        "T10": [
+          5,
+          5,
+          3,
+          5,
+          5,
+          4,
+          4,
+          5
+        ],
+        "T11": [
+          5,
+          5,
+          4,
+          4,
+          5,
+          3,
+          5,
+          4
+        ],
+        "T12": [
+          4,
+          4,
+          5,
+          3,
+          5,
+          5,
+          5,
+          5
+        ],
+        "T13": [
+          4,
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          3
+        ],
+        "T14": [
+          3,
+          5,
+          5,
+          5,
+          4,
+          5,
+          4,
+          5
+        ],
+        "T15": [
+          5,
+          4,
+          5,
+          5,
+          5,
+          4,
+          3,
+          5
+        ],
+        "T16": [
+          4,
+          5,
+          5,
+          5,
+          5,
+          4,
+          3,
+          4
+        ],
+        "T17": [
+          5,
+          4,
+          5,
+          5,
+          4,
+          5,
+          3,
+          5
+        ],
+        "T18": [
+          4,
+          4,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5
+        ],
+        "T19": [
+          4,
+          4,
+          3,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "T20": [
+          5,
+          5,
+          4,
+          3,
+          4,
+          5,
+          5,
+          5
+        ]
+      }
+    }
+  },
+  "interpretation_boundary": "This benchmark tests a four-round temporal-pairing schedule in a bounded deterministic-card task. It isolates repeated versus rotating dyadic contacts under the declared relay rule, not a general effect of communication topology, model scaling or open-ended collaboration."
+}

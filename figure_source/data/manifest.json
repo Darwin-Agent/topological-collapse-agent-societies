@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "sha256",
+  "purpose": "Versioned inventory of the compact, anonymised render inputs checked into this manuscript. These hashes lock the exact bytes consumed by the supplied figure renderers; they do not assert a revision identifier for mutable external source archives.",
+  "inputs": [
+    {
+      "path": "figure_source/data/fig1_overview_data.json",
+      "sha256": "20fffb08ed223228b3b264460f1c569ed9459e1ca781431a3808b055ce994cb0",
+      "manuscript_items": [
+        "Fig. 1"
+      ],
+      "description": "Anonymised observed reply-thread and contact-episode snapshots used in the overview figure."
+    },
+    {
+      "path": "figure_source/data/fig2_observational_data.json",
+      "sha256": "76871fbfe8f3a0ea8cb9cabb2fee20bb36b38643e69144e4b277ab9d8691af68",
+      "manuscript_items": [
+        "Fig. 2"
+      ],
+      "description": "Frozen selected-thread, Enron-reference and reply-window sensitivity summaries."
+    },
+    {
+      "path": "figure_source/data/fig2_sociopatterns_references.json",
+      "sha256": "c1e809db7df441ba9b0545a06270fb56f8af91ef3209628441a1d43927612e23",
+      "manuscript_items": [
+        "Fig. 2"
+      ],
+      "description": "Frozen six-trace SocioPatterns contact-reference summary with raw fingerprints."
+    },
+    {
+      "path": "figure_source/data/fig3_temporal_data.json",
+      "sha256": "ab35c7068e7931e2adfcf4977bf618a021ae44caca4a993439c99161b29e1dee",
+      "manuscript_items": [
+        "Extended Data Fig. 1"
+      ],
+      "description": "Fixed-seed weekly topology summary values."
+    },
+    {
+      "path": "figure_source/data/fig4_abm_data.json",
+      "sha256": "4f134931b14f52e510294d2d96ed3dee6f47bb201c27872c7d7f709d6d647030",
+      "manuscript_items": [
+        "Fig. 3"
+      ],
+      "description": "Agent-based-model seed sweep and independent trajectory archive."
+    },
+    {
+      "path": "figure_source/data/fig6_agentpanel_data.json",
+      "sha256": "d29b89db4cd5c8b7f1707740ecaeed04cea3bd5d775c323120e7fe9cb91fb3f2",
+      "manuscript_items": [
+        "Extended Data Fig. 2"
+      ],
+      "description": "Archived AgentPanel protocol, topology and run-cell inputs."
+    },
+    {
+      "path": "figure_source/data/temporal_pairing_control_summary.json",
+      "sha256": "9a86cfaf7e7dab93f8015764849a05f6890dea97880b6f19ac6e90034072d505",
+      "manuscript_items": [
+        "Extended Data Fig. 5"
+      ],
+      "description": "Byte-identical frozen summary of the prospective held-out temporal-pairing relay control."
+    },
+    {
+      "path": "figure_source/data/raw_snapshot_check.json",
+      "sha256": "7cad63885974628518d55c57ffd9f852d5fa88fce6a163a757fe4bdc48bb082f",
+      "manuscript_items": [
+        "Extended Data Fig. 6"
+      ],
+      "description": "Frozen directional consistency check for an alternative local raw-file pairing."
+    },
+    {
+      "path": "figure_source/data/raw_rewire_null.json",
+      "sha256": "481b5e3ed7897703fd296df1cec7d916ba19242635117296118ae707bfba63a6",
+      "manuscript_items": [
+        "Extended Data Fig. 7"
+      ],
+      "description": "Frozen fixed-margin rewiring summary and chain-length sensitivity diagnostics for the alternative local raw-file pairing."
+    }
+  ]
+}

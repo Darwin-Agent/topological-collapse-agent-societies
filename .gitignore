@@ -1,0 +1,40 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.*
+secrets.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Raw or identifying data
+data/raw/
+data/processed/
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+**/results/raw/
+
+# Runtime output
+*.log
+*.tmp
+results/multimodel_16/
+
+# Editors and operating systems
+.DS_Store
+._*
+.idea/
+.vscode/
+.cursor/

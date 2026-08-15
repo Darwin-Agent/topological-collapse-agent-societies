@@ -1,0 +1,71 @@
+======================================================================
+Multi-Model Statistical Analysis
+======================================================================
+
+
+──────────────────────────────────────────────────
+Model: GPT-4o-mini
+──────────────────────────────────────────────────
+  A: mean_coop = 0.067 ± 0.009  (n=5)
+  B: mean_coop = 0.069 ± 0.007  (n=5)
+  C: mean_coop = 0.983 ± 0.015  (n=5)
+  D: mean_coop = 0.893 ± 0.136  (n=5)
+  AB vs CD (one-sided): U=0.0, p=0.000089 ***
+  Effect size (rank-biserial r): 1.000
+  A vs C: U=0.0, p=0.0079 **
+  A vs D: U=0.0, p=0.0119 *
+  B vs C: U=0.0, p=0.0079 **
+  B vs D: U=0.0, p=0.0119 *
+
+──────────────────────────────────────────────────
+Model: GPT-5
+──────────────────────────────────────────────────
+  A: mean_coop = 0.353 ± 0.249  (n=3)
+  B: mean_coop = 0.000 ± 0.000  (n=3)
+  C: mean_coop = 0.000 ± 0.000  (n=3)
+  D: mean_coop = 0.000 ± 0.000  (n=3)
+  AB vs CD (one-sided): U=24.0, p=0.945956 ns
+  Effect size (rank-biserial r): -0.333
+  A vs C: U=7.5, p=0.1876 ns
+  A vs D: U=7.5, p=0.1876 ns
+  B vs C: U=4.5, p=1.0000 ns
+  B vs D: U=4.5, p=1.0000 ns
+
+──────────────────────────────────────────────────
+Model: Claude Sonnet 4.6
+──────────────────────────────────────────────────
+  A: mean_coop = 0.121 ± 0.076  (n=3)
+  B: mean_coop = 0.171 ± 0.054  (n=3)
+  C: mean_coop = 0.478 ± 0.385  (n=3)
+  D: mean_coop = 0.888 ± 0.027  (n=3)
+  AB vs CD (one-sided): U=5.0, p=0.020563 *
+  Effect size (rank-biserial r): 0.722
+  A vs C: U=2.0, p=0.4000 ns
+  A vs D: U=0.0, p=0.1000 ns
+  B vs C: U=3.0, p=0.7000 ns
+  B vs D: U=0.0, p=0.1000 ns
+
+──────────────────────────────────────────────────
+Model: DeepSeek V3.2
+──────────────────────────────────────────────────
+  A: mean_coop = 0.050 ± 0.000  (n=3)
+  B: mean_coop = 0.050 ± 0.000  (n=3)
+  C: mean_coop = 0.707 ± 0.371  (n=3)
+  D: mean_coop = 1.000 ± 0.000  (n=3)
+  AB vs CD (one-sided): U=0.0, p=0.001134 **
+  Effect size (rank-biserial r): 1.000
+  A vs C: U=0.0, p=0.0636 ns
+  A vs D: U=0.0, p=0.0469 *
+  B vs C: U=0.0, p=0.0636 ns
+  B vs D: U=0.0, p=0.0469 *
+
+
+======================================================================
+Cross-Model Consistency Check
+======================================================================
+
+Question: Do all models show AB < CD?
+  GPT-4o-mini: AB_mean=0.068, CD_mean=0.938, diff=+0.870 → YES ✓
+  GPT-5: AB_mean=0.176, CD_mean=0.000, diff=-0.176 → NO ✗
+  Claude Sonnet 4.6: AB_mean=0.146, CD_mean=0.683, diff=+0.537 → YES ✓
+  DeepSeek V3.2: AB_mean=0.050, CD_mean=0.853, diff=+0.803 → YES ✓

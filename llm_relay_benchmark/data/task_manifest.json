@@ -1,0 +1,1488 @@
+{
+  "schema_version": 1,
+  "benchmark": "bandwidth_limited_distributed_evidence",
+  "manifest_seed": 20260730,
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "n_agents": 8,
+  "task_generation": {
+    "card_rule": "Every card excludes two false labels. No set of one, two or three cards identifies the answer; some four-card sets do.",
+    "answer_balance": "Four engineering-pilot tasks are followed by 16 held-out tasks with exactly two instances of every answer label."
+  },
+  "task_blocks": {
+    "engineering_pilot": [
+      "T01",
+      "T02",
+      "T03",
+      "T04"
+    ],
+    "heldout_confirmatory": [
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T19",
+      "T20"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "T01",
+      "answer": "G",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "A",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "A",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E5",
+        "1": "E8",
+        "2": "E3",
+        "3": "E6",
+        "4": "E1",
+        "5": "E4",
+        "6": "E2",
+        "7": "E7"
+      }
+    },
+    {
+      "task_id": "T02",
+      "answer": "A",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E5",
+        "1": "E3",
+        "2": "E2",
+        "3": "E7",
+        "4": "E6",
+        "5": "E1",
+        "6": "E8",
+        "7": "E4"
+      }
+    },
+    {
+      "task_id": "T03",
+      "answer": "C",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E1",
+        "1": "E8",
+        "2": "E2",
+        "3": "E5",
+        "4": "E7",
+        "5": "E4",
+        "6": "E3",
+        "7": "E6"
+      }
+    },
+    {
+      "task_id": "T04",
+      "answer": "E",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "F"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E8",
+        "1": "E3",
+        "2": "E6",
+        "3": "E1",
+        "4": "E4",
+        "5": "E7",
+        "6": "E2",
+        "7": "E5"
+      }
+    },
+    {
+      "task_id": "T05",
+      "answer": "H",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "E"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E4",
+        "1": "E6",
+        "2": "E1",
+        "3": "E3",
+        "4": "E8",
+        "5": "E7",
+        "6": "E5",
+        "7": "E2"
+      }
+    },
+    {
+      "task_id": "T06",
+      "answer": "H",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E3",
+        "1": "E1",
+        "2": "E7",
+        "3": "E6",
+        "4": "E4",
+        "5": "E8",
+        "6": "E5",
+        "7": "E2"
+      }
+    },
+    {
+      "task_id": "T07",
+      "answer": "F",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E2",
+        "1": "E3",
+        "2": "E5",
+        "3": "E6",
+        "4": "E1",
+        "5": "E8",
+        "6": "E4",
+        "7": "E7"
+      }
+    },
+    {
+      "task_id": "T08",
+      "answer": "C",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E4",
+        "1": "E5",
+        "2": "E8",
+        "3": "E3",
+        "4": "E1",
+        "5": "E7",
+        "6": "E2",
+        "7": "E6"
+      }
+    },
+    {
+      "task_id": "T09",
+      "answer": "B",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E1",
+        "1": "E3",
+        "2": "E4",
+        "3": "E8",
+        "4": "E6",
+        "5": "E2",
+        "6": "E5",
+        "7": "E7"
+      }
+    },
+    {
+      "task_id": "T10",
+      "answer": "A",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E6",
+        "1": "E8",
+        "2": "E2",
+        "3": "E3",
+        "4": "E4",
+        "5": "E5",
+        "6": "E7",
+        "7": "E1"
+      }
+    },
+    {
+      "task_id": "T11",
+      "answer": "F",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E7",
+        "1": "E2",
+        "2": "E6",
+        "3": "E5",
+        "4": "E1",
+        "5": "E3",
+        "6": "E8",
+        "7": "E4"
+      }
+    },
+    {
+      "task_id": "T12",
+      "answer": "G",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "F"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E5",
+        "1": "E3",
+        "2": "E4",
+        "3": "E1",
+        "4": "E7",
+        "5": "E8",
+        "6": "E6",
+        "7": "E2"
+      }
+    },
+    {
+      "task_id": "T13",
+      "answer": "D",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E2",
+        "1": "E6",
+        "2": "E8",
+        "3": "E3",
+        "4": "E5",
+        "5": "E1",
+        "6": "E4",
+        "7": "E7"
+      }
+    },
+    {
+      "task_id": "T14",
+      "answer": "G",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "C",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E8",
+        "1": "E5",
+        "2": "E1",
+        "3": "E2",
+        "4": "E4",
+        "5": "E7",
+        "6": "E6",
+        "7": "E3"
+      }
+    },
+    {
+      "task_id": "T15",
+      "answer": "E",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "D",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "A",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "C",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E7",
+        "1": "E4",
+        "2": "E6",
+        "3": "E2",
+        "4": "E1",
+        "5": "E8",
+        "6": "E5",
+        "7": "E3"
+      }
+    },
+    {
+      "task_id": "T16",
+      "answer": "E",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E2",
+        "1": "E8",
+        "2": "E4",
+        "3": "E7",
+        "4": "E6",
+        "5": "E1",
+        "6": "E5",
+        "7": "E3"
+      }
+    },
+    {
+      "task_id": "T17",
+      "answer": "C",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "D",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "B",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E1",
+        "1": "E6",
+        "2": "E3",
+        "3": "E7",
+        "4": "E8",
+        "5": "E5",
+        "6": "E4",
+        "7": "E2"
+      }
+    },
+    {
+      "task_id": "T18",
+      "answer": "B",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "A",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "C",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "E",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E3",
+        "1": "E8",
+        "2": "E6",
+        "3": "E4",
+        "4": "E1",
+        "5": "E7",
+        "6": "E2",
+        "7": "E5"
+      }
+    },
+    {
+      "task_id": "T19",
+      "answer": "A",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "D",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "C",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "B",
+            "D"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "H"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E5",
+        "1": "E4",
+        "2": "E7",
+        "3": "E2",
+        "4": "E6",
+        "5": "E1",
+        "6": "E8",
+        "7": "E3"
+      }
+    },
+    {
+      "task_id": "T20",
+      "answer": "D",
+      "cards": [
+        {
+          "card_id": "E1",
+          "excludes": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "card_id": "E2",
+          "excludes": [
+            "G",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E3",
+          "excludes": [
+            "E",
+            "F"
+          ]
+        },
+        {
+          "card_id": "E4",
+          "excludes": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "card_id": "E5",
+          "excludes": [
+            "C",
+            "G"
+          ]
+        },
+        {
+          "card_id": "E6",
+          "excludes": [
+            "F",
+            "H"
+          ]
+        },
+        {
+          "card_id": "E7",
+          "excludes": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "card_id": "E8",
+          "excludes": [
+            "B",
+            "G"
+          ]
+        }
+      ],
+      "agent_cards": {
+        "0": "E4",
+        "1": "E1",
+        "2": "E5",
+        "3": "E6",
+        "4": "E2",
+        "5": "E7",
+        "6": "E8",
+        "7": "E3"
+      }
+    }
+  ]
+}

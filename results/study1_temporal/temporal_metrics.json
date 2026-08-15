@@ -1,0 +1,82 @@
+[
+  {
+    "week": "2026-W05",
+    "n_nodes": 3428,
+    "n_edges": 3261,
+    "edge_size_mean": 5.671879791475008,
+    "frac_higher_order": 0.8561790861698866,
+    "triadic_closure": 0.7799359976185161,
+    "gini": 0.7353113404569736,
+    "overlap": 0.166589282731587
+  },
+  {
+    "week": "2026-W06",
+    "n_nodes": 7260,
+    "n_edges": 9520,
+    "edge_size_mean": 5.011134453781513,
+    "frac_higher_order": 0.7904411764705882,
+    "triadic_closure": 0.766555982539268,
+    "gini": 0.7744619391107541,
+    "overlap": 0.15546147316994305
+  },
+  {
+    "week": "2026-W07",
+    "n_nodes": 8574,
+    "n_edges": 9230,
+    "edge_size_mean": 3.0085590465872154,
+    "frac_higher_order": 0.3695557963163597,
+    "triadic_closure": 0.4997116493656286,
+    "gini": 0.5944259617669696,
+    "overlap": 0.20584069948323414
+  },
+  {
+    "week": "2026-W08",
+    "n_nodes": 5222,
+    "n_edges": 8385,
+    "edge_size_mean": 4.048539057841383,
+    "frac_higher_order": 0.6128801431127012,
+    "triadic_closure": 0.49788118864001263,
+    "gini": 0.6510534867715763,
+    "overlap": 0.15052006527021103
+  },
+  {
+    "week": "2026-W09",
+    "n_nodes": 4329,
+    "n_edges": 9452,
+    "edge_size_mean": 2.919170545916208,
+    "frac_higher_order": 0.42350825222175204,
+    "triadic_closure": 0.49207068418667876,
+    "gini": 0.6871769286962097,
+    "overlap": 0.21336184516424508
+  },
+  {
+    "week": "2026-W10",
+    "n_nodes": 3655,
+    "n_edges": 9491,
+    "edge_size_mean": 2.9690232852175744,
+    "frac_higher_order": 0.4200821831208513,
+    "triadic_closure": 0.5559380378657487,
+    "gini": 0.7201414214939872,
+    "overlap": 0.22673194940626504
+  },
+  {
+    "week": "2026-W11",
+    "n_nodes": 4044,
+    "n_edges": 9632,
+    "edge_size_mean": 3.254360465116279,
+    "frac_higher_order": 0.489202657807309,
+    "triadic_closure": 0.5836093030337635,
+    "gini": 0.7140945389650235,
+    "overlap": 0.2084983649539523
+  },
+  {
+    "week": "2026-W12",
+    "n_nodes": 3438,
+    "n_edges": 9709,
+    "edge_size_mean": 3.3009578741373984,
+    "frac_higher_order": 0.5096302399835204,
+    "triadic_closure": 0.5828289814974926,
+    "gini": 0.7296574811065464,
+    "overlap": 0.2091135309410212
+  }
+]

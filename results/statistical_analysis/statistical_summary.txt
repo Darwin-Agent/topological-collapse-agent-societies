@@ -1,0 +1,56 @@
+================================================================================
+STATISTICAL ANALYSIS SUMMARY
+================================================================================
+
+Test 1: Phase Transition Detection (AB vs CD)
+  N_AB=520, N_CD=520
+  Variance test (seed-level): AB=0.000025, CD=0.173556
+  Variance ratio (CD/AB): 6848.5
+  p (Levene): 0.00e+00
+  Above critical mass (seed≥0.15):
+    Mean AB: 0.9089, Mean CD: 0.9151
+    Δ = 0.0062
+    p (t-test): 3.01e-01
+    p (Mann-Whitney): 4.51e-38
+    Cohen's d: 0.048
+  Interaction permutation (max seed diff):
+    Observed: 0.9069
+    p (n=100000): 1.00e-05
+  *** p < 0.001: True
+
+Test 2: Per-seed AB vs CD (significant at p < 0.001)
+  ρ₀=0.01: Δ=-0.9043, p=1.13e-14, d=-51.954 ***
+  ρ₀=0.02: Δ=-0.9069, p=1.13e-14, d=-36.486 ***
+  ρ₀=0.03: Δ=-0.8991, p=1.02e-14, d=-45.662 ***
+  ρ₀=0.05: Δ=-0.8971, p=1.18e-14, d=-38.992 ***
+  ρ₀=0.07: Δ=-0.7909, p=1.33e-14, d=-5.752 ***
+  ρ₀=0.10: Δ=-0.6369, p=3.97e-12, d=-2.939 ***
+  ρ₀=0.12: Δ=-0.4843, p=1.02e-09, d=-2.301 ***
+  ρ₀=0.15: Δ=-0.1741, p=1.67e-01, d=-0.689    
+  ρ₀=0.20: Δ=+0.0050, p=1.20e-04, d=0.047 ***
+  ρ₀=0.25: Δ=+0.0535, p=9.73e-11, d=1.829 ***
+  ρ₀=0.30: Δ=+0.0527, p=1.76e-13, d=2.672 ***
+  ρ₀=0.40: Δ=+0.0543, p=1.13e-11, d=2.172 ***
+  ρ₀=0.50: Δ=+0.0456, p=6.73e-08, d=1.540 ***
+
+Test 3: Bimodality (triad_hyperedge norm adoption)
+  N = 210 (80 high / 130 low)
+  p (binomial): 6.85e-04
+  Dip statistic: 0.3921
+  KDE modes: 2 at [0.008016032064128256, 0.9599198396793587]
+  Gap empty (0.3-0.7): True
+  KS between basins: 1.0000, p=8.75e-60
+
+Test 4: Topology counterfactual (bootstrap CI)
+  Φ_human / Φ_AI: 1.42 [1.13, 1.76]
+  Entire CI > 1.0: True
+  Δρ (HIS only): 0.199 [0.129, 0.301]
+  Entire CI > 0: True
+
+Test 5: Critical mass thresholds
+  ρ_c (dyadic): N/A
+  ρ_c (triad): 0.099
+  ρ_c (pentad): 0.146
+  pentad > triad: True (theory-consistent)
+
+================================================================================

@@ -1,0 +1,57 @@
+{
+  "moltbook": {
+    "n_nodes": 23840,
+    "n_hyperedges": 49519,
+    "mean_edge_size": 9.933601243966962,
+    "max_edge_size": 199,
+    "hyperdegree_mean": 20.633473154362417,
+    "hyperdegree_gini": 0.8629962541100904,
+    "higher_order_fraction": 0.9693249055917931,
+    "triadic_closure_rate": 0.7532695505779456,
+    "mean_edge_overlap": 0.11707393583661475
+  },
+  "enron": {
+    "n_nodes": 13787,
+    "n_hyperedges": 50000,
+    "mean_edge_size": 2.0,
+    "max_edge_size": 2,
+    "hyperdegree_mean": 7.253209545223761,
+    "hyperdegree_gini": 0.7266552810618698,
+    "higher_order_fraction": 0.0,
+    "triadic_closure_rate": 0.33162502199542493,
+    "mean_edge_overlap": 0.35893333333333327
+  },
+  "arxiv": {
+    "n_nodes": 47132,
+    "n_hyperedges": 50000,
+    "mean_edge_size": 2.84544,
+    "max_edge_size": 6,
+    "hyperdegree_mean": 3.0185860986166513,
+    "hyperdegree_gini": 0.28497498605003213,
+    "higher_order_fraction": 0.4965,
+    "triadic_closure_rate": 0.3156273771313011,
+    "mean_edge_overlap": 0.20129409090909095
+  },
+  "reddit": {
+    "n_nodes": 98575,
+    "n_hyperedges": 46293,
+    "mean_edge_size": 2.9304214460069558,
+    "max_edge_size": 18,
+    "hyperdegree_mean": 1.3761907177276185,
+    "hyperdegree_gini": 0.20476336139514095,
+    "higher_order_fraction": 0.447389454129134,
+    "triadic_closure_rate": 0.7112700274233513,
+    "mean_edge_overlap": 0.1887943366973173
+  },
+  "stackoverflow": {
+    "n_nodes": 63680,
+    "n_hyperedges": 27713,
+    "mean_edge_size": 2.590011907768917,
+    "max_edge_size": 13,
+    "hyperdegree_mean": 1.1271513819095478,
+    "hyperdegree_gini": 0.10048150401862332,
+    "higher_order_fraction": 0.3321906686392668,
+    "triadic_closure_rate": 0.8321143452174344,
+    "mean_edge_overlap": 0.2252989379102012
+  }
+}

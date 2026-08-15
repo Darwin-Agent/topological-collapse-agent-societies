@@ -1,0 +1,16 @@
+============================================================
+Statistical Tests: Dyadic (A/B) vs Higher-Order (C/D)
+============================================================
+  A: mean_coop = 0.067 ± 0.009  (n=5)
+  B: mean_coop = 0.069 ± 0.007  (n=5)
+  C: mean_coop = 0.983 ± 0.015  (n=5)
+  D: mean_coop = 0.893 ± 0.136  (n=5)
+
+Mann-Whitney U (AB < CD): U=0.0, p=0.000089
+  → SIGNIFICANT at α=0.05
+  Effect size (rank-biserial r): 1.000
+  A vs C: U=0.0, p=0.0079 **
+  A vs D: U=0.0, p=0.0119 *
+  B vs C: U=0.0, p=0.0079 **
+  B vs D: U=0.0, p=0.0119 *
+  C vs D: U=14.5, p=0.7503 ns

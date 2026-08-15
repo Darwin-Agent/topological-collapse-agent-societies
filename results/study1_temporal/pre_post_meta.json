@@ -1,0 +1,26 @@
+{
+  "pre_meta": {
+    "n_posts": 1971524,
+    "zero_reply": 1423739,
+    "unique_authors": 167588,
+    "avg_comments": 6.459775280442947,
+    "first_post": "2026-01-27T18:01:13.220Z",
+    "last_post": "2026-03-09T23:59:59.677Z",
+    "zero_reply_rate": 0.7221514929567178,
+    "n_comments": 8059733,
+    "avg_depth": 0.013534195239470092,
+    "unique_commenters": 15891
+  },
+  "post_meta": {
+    "n_posts": 289847,
+    "zero_reply": 147594,
+    "unique_authors": 9467,
+    "avg_comments": 2.6260440853277762,
+    "first_post": "2026-03-10T00:00:01.407Z",
+    "last_post": "2026-03-22T17:15:30.983Z",
+    "zero_reply_rate": 0.5092134815954624,
+    "n_comments": 308753,
+    "avg_depth": 0.14797912894773493,
+    "unique_commenters": 5594
+  }
+}

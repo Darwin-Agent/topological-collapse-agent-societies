@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "created_at_utc": "2026-08-17T15:21:33.698106+00:00",
+  "benchmark": "distributed_evidence_integration",
+  "script_sha256": "601367e2ea1b4569fb243d4ce16aeac71b8ee21efdb61ab9c68ae93e8ca8268a",
+  "manifest_sha256": "ebf64a427ccc6e37e67674d6315ede347f86a422662f158196676fab03e58ecb",
+  "mode": "pilot",
+  "models": [
+    {
+      "label": "DeepSeek-V4-Flash",
+      "model": "deepseek-v4-flash"
+    },
+    {
+      "label": "GPT-4.1-mini",
+      "model": "gpt-4.1-mini"
+    }
+  ],
+  "conditions": [
+    "solo",
+    "pairs",
+    "star",
+    "triads",
+    "five_cliques"
+  ],
+  "n_agents": 8,
+  "n_rounds": 3,
+  "temperature": 0,
+  "max_tokens": 512,
+  "task_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "topology_seeds": [
+    0
+  ],
+  "primary_endpoint": "Run-level plurality accuracy, with ties counted as incorrect, averaged over frozen task instances.",
+  "secondary_endpoints": [
+    "Individual accuracy",
+    "Fraction of agents with evidence sufficient for a unique answer",
+    "Accuracy conditional on sufficient evidence",
+    "Brier score and JSON/API failure rates"
+  ],
+  "evidence_delivery": "Cards are passed losslessly to peers specified by the protocol at each synchronous round. Model prose is logged but never treated as an authoritative evidence channel.",
+  "gateway_limitation": "Configured model identifiers do not establish an immutable provider-side deployment revision."
+}

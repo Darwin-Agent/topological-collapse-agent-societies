@@ -1,0 +1,16 @@
+================================================================
+Metric                        Moltbook (clean)           SP-SFHH
+----------------------------------------------------------------
+Nodes                                   22,666               403
+Hyperedges                              44,850               249
+Edge size (mean)                          5.54             67.88
+Edge size (median)                        4.00             54.00
+Edge size (max)                            113               259
+% dyadic (s=2)                          0.1782            0.0201
+% triadic (s=3)                         0.1862            0.0080
+% higher-order (s≥3)                    0.8218            0.9799
+Hyperdegree (mean)                       10.96             41.94
+Hyperdegree Gini                        0.7812            0.3707
+Triadic closure                         0.6425            0.9702
+Edge overlap (Jaccard)                  0.1277            0.2689
+================================================================

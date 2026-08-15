@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "benchmark": "matched_one_round_relay_ablation",
+  "status": "post_hoc_mechanism_ablation",
+  "created_at_utc": "2026-07-30T12:00:00+00:00",
+  "source_benchmark": "llm_relay_benchmark",
+  "source_manifest_sha256": "fc220c5c30852e3f598638a78f5641b742b0243fc608ff0adf5a157506133e7c",
+  "source_two_round_protocol_sha256": "542e3b004bd6ea03869d0037d5ea04629f43871cbbfa681c67a86fd3d8039eb9",
+  "task_ids": [
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16",
+    "T17",
+    "T18",
+    "T19",
+    "T20"
+  ],
+  "models": [
+    {
+      "label": "DeepSeek-V4-Flash",
+      "model": "deepseek-v4-flash"
+    },
+    {
+      "label": "GPT-4.1-mini",
+      "model": "gpt-4.1-mini"
+    }
+  ],
+  "conditions": [
+    "solo",
+    "pairs",
+    "star",
+    "triads",
+    "five_cliques"
+  ],
+  "n_agents": 8,
+  "n_rounds": 1,
+  "relay_rule": "At the single synchronous round, every agent broadcasts the lexicographically first card it has not previously broadcast. Payloads are selected before delivery to every co-member.",
+  "primary_endpoint": "Final-round run-level plurality accuracy; ties are incorrect.",
+  "secondary_endpoints": [
+    "individual accuracy",
+    "sufficient-evidence agent fraction",
+    "accuracy conditional on sufficient evidence",
+    "Brier score",
+    "API and parse failure rates"
+  ],
+  "temperature": 0,
+  "max_tokens": 512,
+  "interpretation_boundary": "This matched ablation reuses the previously analysed task manifest. It is not an independent held-out replication and does not isolate topology from group size or centralisation."
+}
